@@ -47,6 +47,7 @@ All monetary values are expressed in **unspecified currency units**. No currency
 - [SQL analysis](../../sql/sales_analysis.sql)
 - [Python analysis script](../../python/analyze_sales.py)
 - [Initial findings and KPI results](initial-findings.md)
+- [Analysis output tables](../../outputs/)
 
 ## Run the Python analysis
 
@@ -57,7 +58,7 @@ python -m pip install -r requirements.txt
 python python/analyze_sales.py
 ```
 
-The script validates the source data, prints executive KPIs and grouped summaries, and exports six reusable CSV tables to `outputs/` for Excel and Tableau.
+The script validates the source data, prints executive KPIs and grouped summaries, and exports six reusable CSV tables to `outputs/` for Excel and Tableau. The committed output tables are the initial calculated results for this sample dataset.
 
 ## SQL environment
 
