@@ -4,23 +4,29 @@ Run from the repository root:
     python -m pip install -r requirements.txt
     python python/analyze_sales.py
 
-The source dataset is synthetic and uses unspecified currency units.
+The script validates the input, calculates business metrics, prints summaries,
+and writes analysis tables to outputs/. Source data is synthetic.
 """
 from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "datasets" / "sales_data.csv"
+OUTPUT_DIR = ROOT / "outputs"
 
 REQUIRED_COLUMNS = {
     "order_id", "order_date", "region", "sales_rep",
     "customer_segment", "category", "product",
     "quantity", "unit_price", "unit_cost",
 }
+DIMENSION_COLUMNS = [
+    "region", "sales_rep", "customer_segment", "category", "product"
+]
+NUMERIC_COLUMNS = ["quantity", "unit_price", "unit_cost"]
 
 
 def load_data(path: Path) -> pd.DataFrame:
-    """Load the CSV and validate required fields and basic data quality."""
+    """Load the CSV and fail early when required fields are incomplete or invalid."""
     if not path.exists():
         raise FileNotFoundError(f"Dataset not found: {path}")
 
@@ -30,13 +36,14 @@ def load_data(path: Path) -> pd.DataFrame:
         raise ValueError(f"Missing required columns: {sorted(missing)}")
 
     df["order_date"] = pd.to_datetime(df["order_date"], errors="coerce")
-    numeric_columns = ["quantity", "unit_price", "unit_cost"]
-    for column in numeric_columns:
+    for column in NUMERIC_COLUMNS:
         df[column] = pd.to_numeric(df[column], errors="coerce")
 
+    if df.empty:
+        raise ValueError("The dataset contains no records.")
     if df["order_date"].isna().any():
         raise ValueError("Invalid or missing order_date values detected.")
-    if df[numeric_columns].isna().any().any():
+    if df[NUMERIC_COLUMNS].isna().any().any():
         raise ValueError("Missing or non-numeric quantity, unit_price, or unit_cost.")
     if (df["quantity"] <= 0).any():
         raise ValueError("Quantity must be greater than zero.")
@@ -44,6 +51,9 @@ def load_data(path: Path) -> pd.DataFrame:
         raise ValueError("Unit price and unit cost cannot be negative.")
     if df["order_id"].isna().any() or df["order_id"].astype(str).str.strip().eq("").any():
         raise ValueError("Missing or blank order_id values detected.")
+    for column in DIMENSION_COLUMNS:
+        if df[column].isna().any() or df[column].astype(str).str.strip().eq("").any():
+            raise ValueError(f"Missing or blank values detected in {column}.")
 
     return df
 
@@ -59,7 +69,7 @@ def add_metrics(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def summarize(df: pd.DataFrame, dimension: str) -> pd.DataFrame:
-    """Aggregate revenue, cost, profit, units, and orders by a dimension."""
+    """Aggregate revenue, cost, profit, units, orders, and margin by a dimension."""
     summary = (
         df.groupby(dimension, dropna=False)
         .agg(
@@ -75,39 +85,66 @@ def summarize(df: pd.DataFrame, dimension: str) -> pd.DataFrame:
         summary["profit"].div(summary["revenue"].where(summary["revenue"].ne(0)))
         .mul(100)
     )
-    return summary.sort_values("revenue", ascending=False)
+    return summary.sort_values(["revenue", dimension], ascending=[False, True])
+
+
+def build_kpis(df: pd.DataFrame) -> pd.DataFrame:
+    """Return one-row executive KPI table."""
+    revenue = df["revenue"].sum()
+    profit = df["profit"].sum()
+    orders = df["order_id"].nunique()
+    return pd.DataFrame([{
+        "records": len(df),
+        "orders": orders,
+        "units_sold": df["quantity"].sum(),
+        "revenue": revenue,
+        "cost": df["cost"].sum(),
+        "profit": profit,
+        "profit_margin_pct": profit / revenue * 100 if revenue else float("nan"),
+        "average_order_value": revenue / orders if orders else float("nan"),
+        "data_start_date": df["order_date"].min().date().isoformat(),
+        "data_end_date": df["order_date"].max().date().isoformat(),
+    }])
+
+
+def write_outputs(df: pd.DataFrame) -> dict[str, pd.DataFrame]:
+    """Write clean CSV outputs for Excel, Tableau, and further analysis."""
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    tables = {
+        "kpi_summary": build_kpis(df),
+        "monthly_performance": summarize(df, "sales_month"),
+        "region_performance": summarize(df, "region"),
+        "category_performance": summarize(df, "category"),
+        "segment_performance": summarize(df, "customer_segment"),
+        "product_performance": summarize(df, "product"),
+    }
+    for name, table in tables.items():
+        table.to_csv(OUTPUT_DIR / f"{name}.csv", index=False)
+    return tables
 
 
 def main() -> None:
     raw = load_data(DATA_FILE)
     df = add_metrics(raw)
+    tables = write_outputs(df)
 
-    total_revenue = df["revenue"].sum()
-    total_cost = df["cost"].sum()
-    total_profit = df["profit"].sum()
-    margin = (total_profit / total_revenue * 100) if total_revenue else float("nan")
+    print("\nSALES PERFORMANCE — EXECUTIVE KPIs")
+    print("---------------------------------")
+    print(tables["kpi_summary"].to_string(index=False, float_format=lambda x: f"{x:,.2f}"))
+    print("\nNote: currency is unspecified; all source records are synthetic.")
 
-    print("\nSALES PERFORMANCE — OVERALL KPIs")
-    print("--------------------------------")
-    print(f"Rows: {len(df):,}")
-    print(f"Orders: {df['order_id'].nunique():,}")
-    print(f"Units sold: {df['quantity'].sum():,.0f}")
-    print(f"Revenue: {total_revenue:,.2f}")
-    print(f"Cost: {total_cost:,.2f}")
-    print(f"Profit: {total_profit:,.2f}")
-    print(f"Profit margin: {margin:,.2f}%")
-    print("\nNote: currency is unspecified; dataset is synthetic.")
-
-    for dimension, heading in [
-        ("sales_month", "MONTHLY PERFORMANCE"),
-        ("region", "PERFORMANCE BY REGION"),
-        ("category", "PERFORMANCE BY CATEGORY"),
-        ("customer_segment", "PERFORMANCE BY CUSTOMER SEGMENT"),
-        ("product", "PRODUCT PERFORMANCE"),
+    for key, heading in [
+        ("monthly_performance", "MONTHLY PERFORMANCE"),
+        ("region_performance", "PERFORMANCE BY REGION"),
+        ("category_performance", "PERFORMANCE BY CATEGORY"),
+        ("segment_performance", "PERFORMANCE BY CUSTOMER SEGMENT"),
+        ("product_performance", "PRODUCT PERFORMANCE"),
     ]:
         print(f"\n{heading}")
         print("-" * len(heading))
-        print(summarize(df, dimension).to_string(index=False, float_format=lambda x: f"{x:,.2f}"))
+        print(tables[key].to_string(index=False, float_format=lambda x: f"{x:,.2f}"))
+
+    print(f"\nSaved {len(tables)} analysis tables to: {OUTPUT_DIR.relative_to(ROOT)}/")
 
 
 if __name__ == "__main__":
