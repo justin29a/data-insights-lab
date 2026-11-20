@@ -34,7 +34,7 @@ This repository serves as a collection of analytical projects, technical experim
 
 | Project | Description | Tools |
 |---|---|---|
-| [Sales Performance Intelligence](projects/sales-performance-intelligence/README.md) | Analyzing sales, revenue, profit, and business performance using a synthetic retail dataset | Excel, SQL, Python, Tableau |
+| [Sales Performance Intelligence](projects/sales-performance-intelligence/README.md) | Sales analysis with a synthetic dataset, SQL, Python, and documented findings | Excel, SQL, Python, Tableau |
 | SQL Business Analytics | Business-focused database querying and analysis | SQL |
 | HR Workforce Analytics | Exploring employee trends and workforce performance | Excel, SQL, Tableau |
 | Financial Performance Dashboard | Financial reporting and performance monitoring | Excel, Tableau |
