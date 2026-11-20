@@ -46,6 +46,7 @@ All monetary values are expressed in **unspecified currency units**. No currency
 - [Data dictionary](../../docs/data_dictionary.md)
 - [SQL analysis](../../sql/sales_analysis.sql)
 - [Python analysis script](../../python/analyze_sales.py)
+- [Initial findings and KPI results](initial-findings.md)
 
 ## Run the Python analysis
 
@@ -56,7 +57,7 @@ python -m pip install -r requirements.txt
 python python/analyze_sales.py
 ```
 
-The script prints overall KPIs and grouped summaries for months, regions, categories, and customer segments.
+The script validates the source data, prints executive KPIs and grouped summaries, and exports six reusable CSV tables to `outputs/` for Excel and Tableau.
 
 ## SQL environment
 
