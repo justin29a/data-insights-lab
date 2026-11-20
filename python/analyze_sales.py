@@ -85,6 +85,8 @@ def summarize(df: pd.DataFrame, dimension: str) -> pd.DataFrame:
         summary["profit"].div(summary["revenue"].where(summary["revenue"].ne(0)))
         .mul(100)
     )
+    if dimension == "sales_month":
+        return summary.sort_values(dimension)
     return summary.sort_values(["revenue", dimension], ascending=[False, True])
 
 
