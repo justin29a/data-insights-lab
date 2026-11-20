@@ -1,0 +1,4 @@
+customer_segment,revenue,cost,profit,units_sold,orders,profit_margin_pct
+Corporate,2755,1702,1053,34,9,38.22
+Small Business,2152,1254,898,38,6,41.73
+Consumer,1334,708,626,36,9,46.93
