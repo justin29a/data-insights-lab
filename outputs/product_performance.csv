@@ -1,0 +1,8 @@
+product,revenue,cost,profit,units_sold,orders,profit_margin_pct
+Desk,1600,1050,550,5,4,34.38
+Office Chair,1440,880,560,8,4,38.89
+Monitor,1260,870,390,6,3,30.95
+Keyboard,630,252,378,14,4,60.00
+Wireless Mouse,525,210,315,21,3,60.00
+Printer Paper Box,588,336,252,21,3,42.86
+Notebook Pack,198,66,132,33,3,66.67
