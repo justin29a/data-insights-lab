@@ -46,6 +46,8 @@ All monetary values are expressed in **unspecified currency units**. No currency
 - [Data dictionary](../../docs/data_dictionary.md)
 - [SQL analysis](../../sql/sales_analysis.sql)
 - [Python analysis script](../../python/analyze_sales.py)
+- [Automated Python tests](../../tests/test_analyze_sales.py)
+- [GitHub Actions validation workflow](../../.github/workflows/validate-sales-analysis.yml)
 - [Initial findings and KPI results](initial-findings.md)
 - [Analysis output tables](../../outputs/)
 - [Excel workbook documentation](excel-workbook.md) (describes the companion dashboard workbook and its validation status)
@@ -59,11 +61,11 @@ python -m pip install -r requirements.txt
 python python/analyze_sales.py
 ```
 
-The script validates the source data, prints executive KPIs and grouped summaries, and exports six reusable CSV tables to `outputs/` for Excel and Tableau. Six summary CSVs are committed in `outputs/` so the results can be inspected and reused directly.
+The script validates the source data, prints executive KPIs and grouped summaries, and exports six reusable CSV tables to `outputs/` for Excel and Tableau. Six summary CSVs are committed in `outputs/` so the results can be inspected and reused directly. The validation layer rejects missing fields, invalid dates, non-numeric or infinite measures, non-positive quantities, negative prices/costs, and blank identifiers or dimensions.
 
 ## SQL environment
 
-The SQL file is written for SQLite. Import `datasets/sales_data.csv` into a table named `sales_data`, then run the queries in [sales_analysis.sql](../../sql/sales_analysis.sql).
+The SQL file is written for SQLite. Import `datasets/sales_data.csv` into a table named `sales_data`, then run the queries in [sales_analysis.sql](../../sql/sales_analysis.sql). Its grouped summaries now use the same measures and revenue-first ordering as the Python reports.
 
 ## Tableau dashboard plan
 
@@ -76,6 +78,16 @@ The planned dashboard has:
 - Filters for date, region, category, and customer segment
 
 A dashboard should only be published after the underlying calculations have been validated.
+
+## Automated validation
+
+Run the unit tests from the repository root:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+A GitHub Actions workflow runs these tests and executes the analysis script on pushes and pull requests to `main`. In the development validation run, all eight unit-test cases passed. SQLite was also executed against the sample data: executive KPIs and all five grouped summaries reconciled with the Python calculations, and the expanded data-quality query returned zero issues.
 
 ## Current scope and limitations
 
