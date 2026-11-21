@@ -77,6 +77,17 @@ class SalesAnalysisTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Infinite"):
             self.load_csv(broken)
 
+    def test_committed_dataset_has_expected_two_year_coverage(self):
+        dataset_path = Path(__file__).resolve().parents[1] / "datasets" / "sales_data.csv"
+        df = add_metrics(load_data(dataset_path))
+        self.assertEqual(len(df), 1200)
+        self.assertEqual(df["order_id"].nunique(), 1200)
+        monthly_orders = df.groupby("sales_month")["order_id"].nunique()
+        self.assertEqual(len(monthly_orders), 24)
+        self.assertTrue((monthly_orders == 50).all())
+        self.assertEqual(df["order_date"].min().strftime("%Y-%m-%d"), "2024-01-02")
+        self.assertEqual(df["order_date"].max().strftime("%Y-%m-%d"), "2025-12-28")
+
 
 if __name__ == "__main__":
     unittest.main()
