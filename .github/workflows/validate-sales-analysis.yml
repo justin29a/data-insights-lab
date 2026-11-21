@@ -35,3 +35,14 @@ jobs:
 
       - name: Run sales analysis
         run: python python/analyze_sales.py
+
+      - name: Build Excel executive workbook
+        run: python python/build_excel_workbook.py
+
+      - name: Upload Excel workbook artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sales-performance-intelligence-excel
+          path: outputs/sales_performance_intelligence.xlsx
+          if-no-files-found: error
+          retention-days: 30
