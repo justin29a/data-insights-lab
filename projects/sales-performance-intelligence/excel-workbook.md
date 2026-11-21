@@ -55,4 +55,4 @@ The script writes six summary CSV files to `outputs/`.
 
 ## Publication status
 
-The workbook was generated as a companion deliverable and structurally checked after saving. Its formulas have not yet been independently recalculated in Microsoft Excel or Google Sheets, and the binary workbook is not yet committed to this repository. Do not treat the workbook as a fully formula-validated or repository-hosted artifact until those checks and publication are complete.
+The workbook was generated as a companion deliverable and structurally checked after saving. Its formulas have not yet been independently recalculated in Microsoft Excel or Google Sheets, and the binary workbook is not yet committed to this repository. Separately, the Python and SQLite analysis calculations have been reconciled against the committed summary tables, and automated Python unit tests have been added. Do not treat the workbook as a fully formula-validated or repository-hosted artifact until its own checks and binary publication are complete.
