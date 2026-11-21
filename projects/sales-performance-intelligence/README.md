@@ -49,7 +49,7 @@ All monetary values are expressed in **unspecified currency units**. No currency
 - [Deterministic dataset generator](../../python/generate_sales_data.py)
 - [SQL analysis](../../sql/sales_analysis.sql)
 - [Python analysis script](../../python/analyze_sales.py)
-- [Automated Python tests](../../tests/test_analyze_sales.py)
+- [Automated Python tests](../../tests/test_analyze_sales.py)\n- [SQLite integration tests](../../tests/test_sql_analysis.py)
 - [GitHub Actions validation workflow](../../.github/workflows/validate-sales-analysis.yml)
 - [Findings and KPI results](initial-findings.md)
 - [Analysis output tables](../../outputs/)
@@ -92,7 +92,7 @@ Run the unit tests from the repository root:
 python -m unittest discover -s tests -v
 ```
 
-GitHub Actions runs the tests and executes the analysis script on pushes and pull requests to `main`. The earlier 24-row release passed all eight tests and the analysis run in CI. The expanded dataset has been committed; its latest workflow run should be checked before treating the new release as fully validated.
+GitHub Actions verifies that the synthetic dataset regenerates byte-for-byte, runs the Python unit tests, executes the analysis script, and runs SQLite integration tests against the actual SQL file. The expanded-data release passed the regeneration check and nine Python tests; the SQL integration tests have now been added and their workflow run is being validated.
 
 ## Scope and limitations
 
