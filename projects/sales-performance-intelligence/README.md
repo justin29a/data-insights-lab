@@ -48,6 +48,7 @@ All monetary values are expressed in **unspecified currency units**. No currency
 - [Python analysis script](../../python/analyze_sales.py)
 - [Initial findings and KPI results](initial-findings.md)
 - [Analysis output tables](../../outputs/)
+- [Excel workbook documentation](excel-workbook.md) (describes the companion dashboard workbook and its validation status)
 
 ## Run the Python analysis
 
@@ -58,7 +59,7 @@ python -m pip install -r requirements.txt
 python python/analyze_sales.py
 ```
 
-The script validates the source data, prints executive KPIs and grouped summaries, and exports six reusable CSV tables to `outputs/` for Excel and Tableau. The committed output tables are the initial calculated results for this sample dataset.
+The script validates the source data, prints executive KPIs and grouped summaries, and exports six reusable CSV tables to `outputs/` for Excel and Tableau. Six summary CSVs are committed in `outputs/` so the results can be inspected and reused directly.
 
 ## SQL environment
 
@@ -78,7 +79,7 @@ A dashboard should only be published after the underlying calculations have been
 
 ## Current scope and limitations
 
-This first release establishes the dataset, metric definitions, SQL query set, and Python analysis workflow. It is a small synthetic dataset intended to demonstrate analytical methods, not to support real-world market conclusions. Findings and recommendations should be added only after the analysis has been executed and checked.
+This release includes the synthetic dataset, metric definitions, SQL query set, Python analysis script, six summary CSV outputs, and a documented Excel dashboard workbook design. The workbook itself is not yet committed as a binary file. The sample is intentionally small and is not intended to support real-world market conclusions. The descriptive findings are documented in [initial-findings.md](initial-findings.md); independent reconciliation of the Python, SQLite, and Excel calculations remains a validation task.
 
 ## Next improvements
 
