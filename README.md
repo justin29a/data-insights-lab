@@ -40,7 +40,7 @@ This repository serves as a collection of analytical projects, technical experim
 | Financial Performance Dashboard | Financial reporting and performance monitoring | Excel, Tableau |
 | AI-Powered Reporting Assistant | An AI application for interacting with business data | Python, AI APIs |
 
-The Sales Performance Intelligence project is the first published project in this portfolio. Its dataset is synthetic and clearly documented. The companion [Excel workbook documentation](projects/sales-performance-intelligence/excel-workbook.md) describes the executive dashboard, supporting worksheets, metric definitions, and current validation status. The workbook itself is not yet committed as a binary file.
+The Sales Performance Intelligence project is the first published project in this portfolio. It now includes 1,200 deterministic synthetic orders across 24 months, automated validation, and documented dashboard plans. Its data is synthetic and clearly documented. The companion [Excel workbook documentation](projects/sales-performance-intelligence/excel-workbook.md) describes the executive dashboard, supporting worksheets, metric definitions, and current validation status. The workbook itself is not yet committed as a binary file.
 
 ## Project Development Approach
 
