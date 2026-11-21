@@ -45,6 +45,8 @@ def load_data(path: Path) -> pd.DataFrame:
         raise ValueError("Invalid or missing order_date values detected.")
     if df[NUMERIC_COLUMNS].isna().any().any():
         raise ValueError("Missing or non-numeric quantity, unit_price, or unit_cost.")
+    if df[NUMERIC_COLUMNS].isin([float("inf"), float("-inf")]).any().any():
+        raise ValueError("Infinite quantity, unit_price, or unit_cost values detected.")
     if (df["quantity"] <= 0).any():
         raise ValueError("Quantity must be greater than zero.")
     if (df[["unit_price", "unit_cost"]] < 0).any().any():
