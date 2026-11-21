@@ -192,14 +192,18 @@ def main():
     b.height, b.width = 7, 13
     region_ws.add_chart(b, "I4")
 
-    for title, key, table_name, subtitle in [
-        ("Category Analysis","category","CategoryPerformance","Category-level performance and profitability."),
-        ("Product Analysis","product","ProductPerformance","Product-level performance and profitability."),
-        ("Customer Analysis","segment","Customer-segment performance and profitability."),
-    ]:
-        add_summary_sheet(wb, title, subtitle, summaries[key], table_name,
-                          ["revenue","cost","profit"], ["profit_margin_pct"])
-
+    add_summary_sheet(wb, "Category Analysis",
+                      "Category-level performance and profitability.",
+                      summaries["category"], "CategoryPerformance",
+                      ["revenue", "cost", "profit"], ["profit_margin_pct"])
+    add_summary_sheet(wb, "Product Analysis",
+                      "Product-level performance and profitability.",
+                      summaries["product"], "ProductPerformance",
+                      ["revenue", "cost", "profit"], ["profit_margin_pct"])
+    add_summary_sheet(wb, "Customer Analysis",
+                      "Customer-segment performance and profitability.",
+                      summaries["segment"], "CustomerPerformance",
+                      ["revenue", "cost", "profit"], ["profit_margin_pct"])
     # Raw source records with calculated metrics
     raw_cols = ["order_id","order_date","region","sales_rep","customer_segment","category",
                 "product","quantity","unit_price","unit_cost","revenue","cost","profit","sales_month"]
