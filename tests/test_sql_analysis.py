@@ -18,6 +18,8 @@ def execute_script_statements(connection, script):
     results = []
     statement = ""
     for line in script.splitlines():
+        if line.lstrip().startswith("--"):
+            continue
         statement += line + "\n"
         if sqlite3.complete_statement(statement):
             sql = statement.strip()
