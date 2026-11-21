@@ -35,7 +35,10 @@ def load_data(path: Path) -> pd.DataFrame:
     if missing:
         raise ValueError(f"Missing required columns: {sorted(missing)}")
 
-    df["order_date"] = pd.to_datetime(df["order_date"], errors="coerce")
+    # The source dataset uses ISO 8601 calendar dates (YYYY-MM-DD).
+    df["order_date"] = pd.to_datetime(
+        df["order_date"], format="%Y-%m-%d", errors="coerce"
+    )
     for column in NUMERIC_COLUMNS:
         df[column] = pd.to_numeric(df[column], errors="coerce")
 
