@@ -63,6 +63,13 @@ data-insights-lab/
 │   └── sales_data.csv
 ├── docs/
 │   └── data_dictionary.md
+├── outputs/
+│   ├── kpi_summary.csv
+│   ├── monthly_performance.csv
+│   ├── region_performance.csv
+│   ├── category_performance.csv
+│   ├── segment_performance.csv
+│   └── product_performance.csv
 ├── projects/
 │   └── sales-performance-intelligence/
 │       ├── README.md
