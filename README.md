@@ -8,7 +8,7 @@ The goal of this portfolio is to transform raw data into meaningful insights, bu
 
 ## About This Portfolio
 
-This repository serves as a collection of analytical projects, technical experiments, and practical solutions focused on solving real-world business problems.
+This repository serves as a collection of analytical projects, technical experiments, and practical solutions focused on solving business problems. Synthetic case studies are explicitly labelled; real-world claims are reserved for appropriately sourced public or licensed data.
 
 ## Core Areas
 
@@ -40,7 +40,7 @@ This repository serves as a collection of analytical projects, technical experim
 | Financial Performance Dashboard | Financial reporting and performance monitoring | Excel, Tableau |
 | AI-Powered Reporting Assistant | An AI application for interacting with business data | Python, AI APIs |
 
-The Sales Performance Intelligence project is the first published project in this portfolio. It now includes 1,200 deterministic synthetic orders across 24 months, automated validation, and documented dashboard plans. Its data is synthetic and clearly documented. The companion [Excel workbook documentation](projects/sales-performance-intelligence/excel-workbook.md) describes the executive dashboard, supporting worksheets, metric definitions, and current validation status. The workbook itself is not yet committed as a binary file.
+The Sales Performance Intelligence project is the first published project in this portfolio. It includes 1,200 deterministic synthetic orders across 24 months, Python analysis, SQLite business queries, automated data-generation checks, Python unit tests, and SQL integration tests. Its data is synthetic and clearly documented. The [Excel workbook documentation](projects/sales-performance-intelligence/excel-workbook.md) describes the refreshed workbook specification; the updated workbook binary is not yet committed.
 
 ## Project Development Approach
 
@@ -78,9 +78,9 @@ data-insights-lab/
 │       ├── README.md
 │       └── excel-workbook.md
 ├── python/
-│   └── analyze_sales.py
+│   ├── analyze_sales.py\n│   └── generate_sales_data.py
 ├── tests/
-│   └── test_analyze_sales.py
+│   ├── test_analyze_sales.py\n│   └── test_sql_analysis.py
 ├── sql/
 │   └── sales_analysis.sql
 ├── requirements.txt
