@@ -1,25 +1,1201 @@
 order_id,order_date,region,sales_rep,customer_segment,category,product,quantity,unit_price,unit_cost
-ORD-1001,2025-01-05,North,Ada,Consumer,Electronics,Wireless Mouse,3,25,10
-ORD-1002,2025-01-08,South,Daniel,Corporate,Furniture,Office Chair,2,180,110
-ORD-1003,2025-01-12,East,Maya,Small Business,Office Supplies,Notebook Pack,10,6,2
-ORD-1004,2025-01-19,West,Noah,Consumer,Electronics,Keyboard,2,45,18
-ORD-1005,2025-02-03,North,Ada,Corporate,Furniture,Desk,1,320,210
-ORD-1006,2025-02-07,South,Daniel,Consumer,Office Supplies,Printer Paper Box,5,28,16
-ORD-1007,2025-02-14,East,Maya,Corporate,Electronics,Monitor,2,210,145
-ORD-1008,2025-02-22,West,Noah,Small Business,Furniture,Office Chair,3,180,110
-ORD-1009,2025-03-02,North,Ada,Consumer,Office Supplies,Notebook Pack,8,6,2
-ORD-1010,2025-03-09,South,Daniel,Corporate,Electronics,Keyboard,5,45,18
-ORD-1011,2025-03-15,East,Maya,Consumer,Furniture,Desk,1,320,210
-ORD-1012,2025-03-26,West,Noah,Small Business,Electronics,Wireless Mouse,12,25,10
-ORD-1013,2025-04-04,North,Ada,Corporate,Electronics,Monitor,3,210,145
-ORD-1014,2025-04-11,South,Daniel,Small Business,Furniture,Office Chair,2,180,110
-ORD-1015,2025-04-16,East,Maya,Consumer,Office Supplies,Printer Paper Box,7,28,16
-ORD-1016,2025-04-28,West,Noah,Corporate,Electronics,Keyboard,4,45,18
-ORD-1017,2025-05-06,North,Ada,Small Business,Furniture,Desk,2,320,210
-ORD-1018,2025-05-10,South,Daniel,Consumer,Electronics,Wireless Mouse,6,25,10
-ORD-1019,2025-05-17,East,Maya,Corporate,Office Supplies,Notebook Pack,15,6,2
-ORD-1020,2025-05-25,West,Noah,Consumer,Furniture,Office Chair,1,180,110
-ORD-1021,2025-06-01,North,Ada,Corporate,Electronics,Monitor,1,210,145
-ORD-1022,2025-06-12,South,Daniel,Small Business,Office Supplies,Printer Paper Box,9,28,16
-ORD-1023,2025-06-18,East,Maya,Consumer,Electronics,Keyboard,3,45,18
-ORD-1024,2025-06-27,West,Noah,Corporate,Furniture,Desk,1,320,210
+ORD-20001,2024-01-14,North,Liam,Small Business,Office Supplies,Ink Cartridge,6,43.04,24.22
+ORD-20002,2024-01-11,South,Ada,Small Business,Electronics,USB-C Hub,5,51.94,26.60
+ORD-20003,2024-01-21,East,Daniel,Consumer,Furniture,Office Chair,4,173.83,109.49
+ORD-20004,2024-01-13,North,Zara,Corporate,Office Supplies,Notebook Pack,3,5.91,2.05
+ORD-20005,2024-01-25,North,Maya,Small Business,Office Supplies,Ink Cartridge,2,40.80,24.14
+ORD-20006,2024-01-20,West,Liam,Small Business,Furniture,Desk,2,329.95,216.06
+ORD-20007,2024-01-27,East,Liam,Small Business,Electronics,USB-C Hub,6,50.41,26.77
+ORD-20008,2024-01-16,West,Grace,Consumer,Electronics,USB-C Hub,5,51.67,26.95
+ORD-20009,2024-01-04,South,Liam,Small Business,Office Supplies,Notebook Pack,2,6.22,2.03
+ORD-20010,2024-01-26,South,Liam,Small Business,Electronics,Wireless Mouse,5,25.72,9.72
+ORD-20011,2024-01-07,South,Ethan,Consumer,Office Supplies,Desk Organizer,4,18.76,7.82
+ORD-20012,2024-01-08,East,Grace,Corporate,Electronics,Laptop Stand,5,69.42,37.02
+ORD-20013,2024-01-26,South,Zara,Consumer,Electronics,Keyboard,2,44.62,18.47
+ORD-20014,2024-01-05,South,Maya,Small Business,Electronics,Monitor,5,202.77,144.66
+ORD-20015,2024-01-25,North,Maya,Corporate,Electronics,Laptop Stand,4,68.46,36.01
+ORD-20016,2024-01-14,West,Ada,Corporate,Office Supplies,Ink Cartridge,6,43.54,24.39
+ORD-20017,2024-01-13,East,Daniel,Small Business,Office Supplies,Ink Cartridge,2,41.97,23.97
+ORD-20018,2024-01-20,West,Liam,Small Business,Electronics,USB-C Hub,2,52.52,26.48
+ORD-20019,2024-01-18,East,Maya,Corporate,Electronics,Keyboard,1,45.48,18.38
+ORD-20020,2024-01-07,North,Noah,Corporate,Electronics,Keyboard,2,43.59,18.41
+ORD-20021,2024-01-17,South,Ada,Corporate,Electronics,USB-C Hub,7,51.05,26.23
+ORD-20022,2024-01-21,North,Daniel,Small Business,Electronics,Laptop Stand,2,65.81,35.94
+ORD-20023,2024-01-24,West,Zara,Corporate,Electronics,Keyboard,6,44.04,18.14
+ORD-20024,2024-01-15,North,Grace,Corporate,Electronics,Wireless Mouse,6,25.50,9.91
+ORD-20025,2024-01-21,West,Grace,Small Business,Office Supplies,Ink Cartridge,3,42.70,24.18
+ORD-20026,2024-01-20,West,Ethan,Corporate,Electronics,Wireless Mouse,3,25.01,10.11
+ORD-20027,2024-01-14,West,Ethan,Small Business,Office Supplies,Printer Paper Box,6,27.06,16.37
+ORD-20028,2024-01-17,North,Maya,Small Business,Electronics,Laptop Stand,5,70.11,37.19
+ORD-20029,2024-01-24,South,Zara,Small Business,Furniture,Bookshelf,2,244.29,151.99
+ORD-20030,2024-01-28,West,Daniel,Corporate,Office Supplies,Desk Organizer,6,18.74,8.14
+ORD-20031,2024-01-03,East,Zara,Consumer,Furniture,Desk,2,328.33,209.96
+ORD-20032,2024-01-17,West,Ethan,Small Business,Furniture,Desk,1,332.01,214.95
+ORD-20033,2024-01-15,South,Maya,Small Business,Furniture,Office Chair,5,175.60,107.66
+ORD-20034,2024-01-04,East,Grace,Small Business,Office Supplies,Printer Paper Box,2,27.97,16.31
+ORD-20035,2024-01-21,West,Daniel,Consumer,Electronics,Keyboard,2,43.46,18.28
+ORD-20036,2024-01-25,South,Liam,Corporate,Office Supplies,Ink Cartridge,3,43.34,23.94
+ORD-20037,2024-01-25,North,Zara,Consumer,Electronics,USB-C Hub,3,53.87,26.39
+ORD-20038,2024-01-21,West,Ada,Consumer,Office Supplies,Notebook Pack,1,5.94,1.96
+ORD-20039,2024-01-03,West,Ada,Small Business,Office Supplies,Ink Cartridge,3,41.58,23.75
+ORD-20040,2024-01-23,East,Ethan,Small Business,Office Supplies,Desk Organizer,3,18.29,7.93
+ORD-20041,2024-01-19,West,Liam,Corporate,Office Supplies,Notebook Pack,3,6.13,1.97
+ORD-20042,2024-01-13,East,Liam,Corporate,Office Supplies,Desk Organizer,4,19.46,7.80
+ORD-20043,2024-01-12,East,Ada,Corporate,Electronics,USB-C Hub,5,50.95,26.62
+ORD-20044,2024-01-24,South,Ethan,Corporate,Furniture,Desk,7,311.78,210.88
+ORD-20045,2024-01-03,North,Daniel,Small Business,Electronics,Keyboard,4,44.64,18.09
+ORD-20046,2024-01-02,North,Zara,Consumer,Electronics,USB-C Hub,4,50.22,27.43
+ORD-20047,2024-01-16,West,Noah,Small Business,Electronics,USB-C Hub,5,50.53,26.23
+ORD-20048,2024-01-16,East,Ethan,Consumer,Furniture,Office Chair,3,181.51,112.94
+ORD-20049,2024-01-04,South,Maya,Corporate,Office Supplies,Printer Paper Box,3,28.05,15.97
+ORD-20050,2024-01-11,South,Maya,Corporate,Office Supplies,Ink Cartridge,3,43.43,23.64
+ORD-20051,2024-02-27,North,Ethan,Small Business,Electronics,Keyboard,5,44.97,17.95
+ORD-20052,2024-02-15,East,Liam,Small Business,Office Supplies,Notebook Pack,6,5.77,1.97
+ORD-20053,2024-02-06,South,Daniel,Small Business,Office Supplies,Ink Cartridge,3,42.93,24.31
+ORD-20054,2024-02-09,North,Ethan,Consumer,Office Supplies,Desk Organizer,5,19.08,7.99
+ORD-20055,2024-02-16,North,Maya,Small Business,Electronics,Wireless Mouse,4,25.30,10.16
+ORD-20056,2024-02-14,North,Ethan,Small Business,Office Supplies,Notebook Pack,3,6.05,1.95
+ORD-20057,2024-02-09,South,Maya,Corporate,Electronics,Laptop Stand,2,69.42,36.96
+ORD-20058,2024-02-24,North,Zara,Small Business,Electronics,Monitor,4,211.59,143.30
+ORD-20059,2024-02-26,South,Liam,Small Business,Electronics,Monitor,5,217.46,145.91
+ORD-20060,2024-02-06,North,Noah,Small Business,Furniture,Bookshelf,2,249.26,145.83
+ORD-20061,2024-02-03,South,Ethan,Consumer,Office Supplies,Printer Paper Box,1,26.94,15.86
+ORD-20062,2024-02-02,North,Daniel,Corporate,Office Supplies,Printer Paper Box,5,27.23,15.95
+ORD-20063,2024-02-07,South,Zara,Consumer,Furniture,Desk,5,323.81,215.89
+ORD-20064,2024-02-15,West,Liam,Corporate,Office Supplies,Desk Organizer,3,18.57,8.00
+ORD-20065,2024-02-21,East,Daniel,Consumer,Office Supplies,Ink Cartridge,5,40.56,23.68
+ORD-20066,2024-02-02,West,Noah,Corporate,Office Supplies,Desk Organizer,5,19.44,8.01
+ORD-20067,2024-02-06,East,Liam,Corporate,Furniture,Bookshelf,8,249.45,147.87
+ORD-20068,2024-02-12,South,Daniel,Consumer,Furniture,Desk,2,328.78,213.60
+ORD-20069,2024-02-27,North,Noah,Consumer,Electronics,Wireless Mouse,1,24.71,10.07
+ORD-20070,2024-02-04,North,Daniel,Small Business,Electronics,USB-C Hub,2,51.99,26.26
+ORD-20071,2024-02-04,West,Liam,Consumer,Electronics,Laptop Stand,2,66.13,36.52
+ORD-20072,2024-02-23,East,Daniel,Small Business,Electronics,Monitor,5,215.76,141.58
+ORD-20073,2024-02-05,North,Grace,Corporate,Furniture,Bookshelf,5,235.71,146.28
+ORD-20074,2024-02-14,North,Grace,Corporate,Electronics,Keyboard,7,45.87,17.90
+ORD-20075,2024-02-26,West,Ada,Small Business,Office Supplies,Printer Paper Box,2,27.49,15.73
+ORD-20076,2024-02-25,West,Maya,Small Business,Furniture,Bookshelf,6,242.91,150.51
+ORD-20077,2024-02-07,South,Grace,Consumer,Furniture,Desk,1,312.43,214.27
+ORD-20078,2024-02-17,South,Zara,Corporate,Furniture,Office Chair,6,179.01,112.68
+ORD-20079,2024-02-28,South,Noah,Corporate,Electronics,USB-C Hub,6,51.72,27.22
+ORD-20080,2024-02-21,West,Ada,Small Business,Furniture,Desk,4,311.22,205.19
+ORD-20081,2024-02-19,East,Ada,Small Business,Office Supplies,Notebook Pack,4,5.98,1.99
+ORD-20082,2024-02-25,East,Ada,Small Business,Electronics,Monitor,3,217.26,146.91
+ORD-20083,2024-02-12,East,Ethan,Corporate,Electronics,Monitor,4,212.96,145.07
+ORD-20084,2024-02-18,North,Maya,Consumer,Office Supplies,Ink Cartridge,4,42.68,24.24
+ORD-20085,2024-02-16,West,Maya,Corporate,Office Supplies,Ink Cartridge,2,41.27,24.20
+ORD-20086,2024-02-24,West,Ada,Small Business,Electronics,Monitor,6,202.65,148.65
+ORD-20087,2024-02-23,West,Noah,Consumer,Electronics,Wireless Mouse,4,25.99,9.81
+ORD-20088,2024-02-26,East,Liam,Corporate,Electronics,Monitor,7,202.92,149.15
+ORD-20089,2024-02-16,North,Ethan,Corporate,Office Supplies,Notebook Pack,8,6.20,2.05
+ORD-20090,2024-02-04,North,Grace,Corporate,Office Supplies,Ink Cartridge,4,40.63,23.95
+ORD-20091,2024-02-09,South,Zara,Small Business,Office Supplies,Notebook Pack,3,5.92,1.99
+ORD-20092,2024-02-27,South,Ada,Consumer,Electronics,Monitor,2,210.62,146.72
+ORD-20093,2024-02-25,East,Grace,Small Business,Electronics,USB-C Hub,2,52.14,27.59
+ORD-20094,2024-02-12,South,Grace,Consumer,Office Supplies,Printer Paper Box,1,28.55,15.73
+ORD-20095,2024-02-22,West,Grace,Consumer,Office Supplies,Notebook Pack,1,6.05,1.98
+ORD-20096,2024-02-08,West,Liam,Small Business,Office Supplies,Ink Cartridge,5,42.93,23.83
+ORD-20097,2024-02-11,West,Ethan,Consumer,Electronics,Laptop Stand,2,66.67,37.25
+ORD-20098,2024-02-13,South,Noah,Corporate,Electronics,Wireless Mouse,8,24.41,10.25
+ORD-20099,2024-02-14,South,Maya,Consumer,Electronics,USB-C Hub,4,52.60,27.01
+ORD-20100,2024-02-11,West,Daniel,Small Business,Office Supplies,Printer Paper Box,4,29.01,15.96
+ORD-20101,2024-03-12,West,Ada,Small Business,Electronics,USB-C Hub,6,50.60,27.19
+ORD-20102,2024-03-04,West,Maya,Consumer,Office Supplies,Printer Paper Box,4,27.09,15.69
+ORD-20103,2024-03-12,East,Maya,Consumer,Office Supplies,Desk Organizer,5,18.65,8.15
+ORD-20104,2024-03-26,West,Ethan,Small Business,Furniture,Desk,6,324.36,207.14
+ORD-20105,2024-03-27,North,Grace,Small Business,Furniture,Bookshelf,1,235.95,152.24
+ORD-20106,2024-03-10,North,Liam,Small Business,Office Supplies,Printer Paper Box,5,28.00,16.05
+ORD-20107,2024-03-01,South,Grace,Corporate,Furniture,Desk,2,313.24,210.61
+ORD-20108,2024-03-19,North,Daniel,Corporate,Electronics,Keyboard,4,46.77,17.50
+ORD-20109,2024-03-15,South,Zara,Corporate,Furniture,Office Chair,7,181.72,108.38
+ORD-20110,2024-03-03,North,Ada,Consumer,Electronics,Wireless Mouse,3,25.92,9.97
+ORD-20111,2024-03-13,North,Zara,Corporate,Office Supplies,Printer Paper Box,3,27.46,15.95
+ORD-20112,2024-03-09,East,Ada,Small Business,Electronics,Wireless Mouse,1,24.86,10.21
+ORD-20113,2024-03-09,East,Ada,Corporate,Office Supplies,Printer Paper Box,8,27.09,16.27
+ORD-20114,2024-03-14,East,Ethan,Small Business,Office Supplies,Notebook Pack,5,5.98,1.96
+ORD-20115,2024-03-10,West,Daniel,Consumer,Furniture,Bookshelf,2,249.59,150.76
+ORD-20116,2024-03-23,West,Grace,Small Business,Office Supplies,Desk Organizer,6,19.68,8.11
+ORD-20117,2024-03-27,East,Maya,Small Business,Furniture,Bookshelf,7,241.94,148.85
+ORD-20118,2024-03-19,East,Daniel,Corporate,Furniture,Desk,4,318.59,215.03
+ORD-20119,2024-03-26,East,Ada,Consumer,Furniture,Desk,4,309.25,209.34
+ORD-20120,2024-03-02,West,Daniel,Consumer,Office Supplies,Ink Cartridge,2,43.57,24.09
+ORD-20121,2024-03-21,North,Maya,Consumer,Electronics,USB-C Hub,2,54.04,26.91
+ORD-20122,2024-03-24,South,Zara,Consumer,Electronics,Monitor,5,215.26,147.10
+ORD-20123,2024-03-28,West,Liam,Consumer,Furniture,Bookshelf,2,231.78,153.66
+ORD-20124,2024-03-04,North,Zara,Corporate,Electronics,Monitor,8,207.73,141.78
+ORD-20125,2024-03-16,North,Daniel,Corporate,Office Supplies,Ink Cartridge,5,40.52,24.47
+ORD-20126,2024-03-11,West,Daniel,Small Business,Electronics,USB-C Hub,5,53.72,27.27
+ORD-20127,2024-03-28,West,Grace,Corporate,Electronics,USB-C Hub,8,52.00,26.55
+ORD-20128,2024-03-02,East,Maya,Small Business,Furniture,Bookshelf,5,239.26,146.44
+ORD-20129,2024-03-24,South,Maya,Consumer,Electronics,Keyboard,5,45.21,18.23
+ORD-20130,2024-03-19,West,Daniel,Small Business,Furniture,Desk,4,321.16,210.63
+ORD-20131,2024-03-25,West,Liam,Consumer,Furniture,Office Chair,4,184.92,107.06
+ORD-20132,2024-03-03,North,Liam,Small Business,Electronics,Keyboard,7,43.34,17.51
+ORD-20133,2024-03-16,East,Maya,Small Business,Furniture,Bookshelf,7,234.15,151.94
+ORD-20134,2024-03-03,West,Liam,Corporate,Electronics,USB-C Hub,7,53.94,26.42
+ORD-20135,2024-03-06,South,Ada,Corporate,Electronics,Keyboard,3,45.10,17.94
+ORD-20136,2024-03-13,East,Ada,Corporate,Electronics,Keyboard,2,44.37,17.91
+ORD-20137,2024-03-10,West,Zara,Corporate,Electronics,Wireless Mouse,8,25.25,10.19
+ORD-20138,2024-03-09,East,Grace,Corporate,Electronics,USB-C Hub,5,53.61,26.35
+ORD-20139,2024-03-03,West,Noah,Corporate,Office Supplies,Notebook Pack,2,6.21,2.04
+ORD-20140,2024-03-15,South,Maya,Corporate,Electronics,Monitor,7,201.77,145.54
+ORD-20141,2024-03-11,South,Zara,Small Business,Furniture,Office Chair,6,179.39,109.32
+ORD-20142,2024-03-26,South,Noah,Small Business,Electronics,Monitor,3,209.40,148.93
+ORD-20143,2024-03-08,East,Noah,Consumer,Office Supplies,Ink Cartridge,3,41.77,23.30
+ORD-20144,2024-03-19,North,Maya,Consumer,Furniture,Desk,1,313.08,212.62
+ORD-20145,2024-03-11,South,Maya,Corporate,Electronics,USB-C Hub,7,51.00,26.56
+ORD-20146,2024-03-16,North,Daniel,Corporate,Furniture,Office Chair,3,177.36,107.62
+ORD-20147,2024-03-01,North,Ada,Corporate,Office Supplies,Notebook Pack,3,5.89,1.97
+ORD-20148,2024-03-11,West,Maya,Small Business,Electronics,Monitor,2,211.27,149.23
+ORD-20149,2024-03-20,North,Liam,Consumer,Furniture,Desk,2,321.22,209.63
+ORD-20150,2024-03-04,North,Zara,Corporate,Office Supplies,Ink Cartridge,4,42.04,24.69
+ORD-20151,2024-04-06,West,Liam,Corporate,Furniture,Office Chair,4,183.14,107.41
+ORD-20152,2024-04-09,North,Daniel,Consumer,Electronics,Wireless Mouse,4,24.19,9.95
+ORD-20153,2024-04-06,East,Ada,Corporate,Furniture,Bookshelf,7,245.60,151.60
+ORD-20154,2024-04-11,East,Maya,Small Business,Furniture,Bookshelf,2,241.32,151.70
+ORD-20155,2024-04-08,South,Noah,Consumer,Electronics,Laptop Stand,3,70.51,37.24
+ORD-20156,2024-04-01,North,Grace,Small Business,Electronics,Wireless Mouse,3,24.56,10.24
+ORD-20157,2024-04-12,North,Noah,Small Business,Furniture,Office Chair,3,178.77,111.92
+ORD-20158,2024-04-09,South,Zara,Corporate,Office Supplies,Notebook Pack,3,5.98,1.98
+ORD-20159,2024-04-07,East,Zara,Consumer,Office Supplies,Printer Paper Box,3,27.22,15.65
+ORD-20160,2024-04-08,West,Liam,Corporate,Electronics,USB-C Hub,3,50.27,26.57
+ORD-20161,2024-04-11,West,Ada,Consumer,Furniture,Bookshelf,5,245.65,146.79
+ORD-20162,2024-04-27,West,Zara,Corporate,Electronics,USB-C Hub,5,52.52,26.20
+ORD-20163,2024-04-20,West,Zara,Small Business,Furniture,Bookshelf,6,238.00,149.68
+ORD-20164,2024-04-25,North,Daniel,Corporate,Office Supplies,Ink Cartridge,6,43.39,23.44
+ORD-20165,2024-04-21,East,Daniel,Small Business,Electronics,Keyboard,4,44.14,17.96
+ORD-20166,2024-04-10,South,Ada,Corporate,Electronics,Laptop Stand,3,70.34,36.97
+ORD-20167,2024-04-24,West,Ada,Small Business,Electronics,Monitor,3,214.16,147.30
+ORD-20168,2024-04-21,East,Daniel,Consumer,Furniture,Desk,2,323.11,205.12
+ORD-20169,2024-04-20,West,Ada,Corporate,Electronics,Monitor,2,203.18,148.06
+ORD-20170,2024-04-20,West,Maya,Corporate,Electronics,Keyboard,8,45.77,18.10
+ORD-20171,2024-04-12,West,Grace,Consumer,Office Supplies,Desk Organizer,2,18.57,8.05
+ORD-20172,2024-04-22,East,Maya,Consumer,Electronics,Laptop Stand,5,68.12,37.46
+ORD-20173,2024-04-02,West,Maya,Small Business,Office Supplies,Ink Cartridge,3,42.11,24.47
+ORD-20174,2024-04-09,East,Ethan,Corporate,Electronics,Laptop Stand,3,69.43,38.07
+ORD-20175,2024-04-22,West,Maya,Corporate,Office Supplies,Printer Paper Box,4,28.60,16.39
+ORD-20176,2024-04-02,North,Zara,Consumer,Electronics,Monitor,3,207.90,142.82
+ORD-20177,2024-04-06,East,Grace,Small Business,Office Supplies,Printer Paper Box,1,28.59,15.79
+ORD-20178,2024-04-12,West,Maya,Consumer,Electronics,Monitor,2,206.96,142.49
+ORD-20179,2024-04-23,East,Liam,Corporate,Office Supplies,Printer Paper Box,6,27.58,15.56
+ORD-20180,2024-04-20,North,Maya,Consumer,Electronics,Wireless Mouse,4,24.80,10.30
+ORD-20181,2024-04-03,South,Ada,Consumer,Office Supplies,Notebook Pack,5,6.21,2.00
+ORD-20182,2024-04-14,West,Zara,Consumer,Office Supplies,Ink Cartridge,1,40.57,24.33
+ORD-20183,2024-04-01,East,Zara,Corporate,Office Supplies,Notebook Pack,8,6.11,2.03
+ORD-20184,2024-04-26,North,Zara,Corporate,Electronics,Wireless Mouse,2,24.53,9.75
+ORD-20185,2024-04-07,East,Ethan,Corporate,Office Supplies,Ink Cartridge,6,40.77,23.51
+ORD-20186,2024-04-28,West,Zara,Small Business,Electronics,Laptop Stand,3,66.21,37.83
+ORD-20187,2024-04-13,South,Ada,Corporate,Electronics,Keyboard,8,46.14,17.56
+ORD-20188,2024-04-27,West,Daniel,Small Business,Office Supplies,Desk Organizer,5,18.38,8.03
+ORD-20189,2024-04-21,South,Daniel,Corporate,Furniture,Bookshelf,5,238.32,148.44
+ORD-20190,2024-04-14,South,Daniel,Corporate,Electronics,Monitor,8,205.20,148.20
+ORD-20191,2024-04-23,West,Daniel,Consumer,Electronics,USB-C Hub,5,51.47,27.25
+ORD-20192,2024-04-05,North,Ethan,Corporate,Furniture,Bookshelf,4,239.15,148.45
+ORD-20193,2024-04-09,West,Ethan,Corporate,Electronics,Keyboard,4,45.98,17.96
+ORD-20194,2024-04-19,South,Liam,Small Business,Electronics,Laptop Stand,6,66.66,37.74
+ORD-20195,2024-04-08,South,Zara,Consumer,Office Supplies,Printer Paper Box,3,27.15,15.81
+ORD-20196,2024-04-01,West,Ethan,Corporate,Electronics,Laptop Stand,7,67.39,36.36
+ORD-20197,2024-04-06,East,Noah,Small Business,Electronics,Keyboard,3,43.81,17.91
+ORD-20198,2024-04-05,South,Noah,Small Business,Office Supplies,Ink Cartridge,3,42.99,24.40
+ORD-20199,2024-04-18,South,Liam,Small Business,Furniture,Office Chair,2,183.42,108.89
+ORD-20200,2024-04-01,North,Zara,Corporate,Office Supplies,Notebook Pack,6,5.94,2.05
+ORD-20201,2024-05-07,East,Ada,Consumer,Furniture,Office Chair,5,180.15,109.46
+ORD-20202,2024-05-25,East,Daniel,Consumer,Electronics,USB-C Hub,2,53.23,27.17
+ORD-20203,2024-05-09,North,Grace,Small Business,Electronics,USB-C Hub,7,53.50,26.90
+ORD-20204,2024-05-21,North,Liam,Corporate,Furniture,Bookshelf,7,236.87,145.73
+ORD-20205,2024-05-25,South,Ada,Corporate,Office Supplies,Printer Paper Box,3,28.35,15.62
+ORD-20206,2024-05-17,South,Ethan,Small Business,Office Supplies,Notebook Pack,2,6.08,1.95
+ORD-20207,2024-05-07,East,Ada,Corporate,Electronics,Wireless Mouse,3,24.15,10.11
+ORD-20208,2024-05-23,West,Daniel,Corporate,Furniture,Desk,7,324.52,204.18
+ORD-20209,2024-05-03,West,Grace,Corporate,Furniture,Desk,6,317.96,210.07
+ORD-20210,2024-05-09,South,Liam,Corporate,Office Supplies,Desk Organizer,4,18.66,8.21
+ORD-20211,2024-05-28,West,Zara,Corporate,Electronics,Monitor,4,217.13,145.44
+ORD-20212,2024-05-01,East,Ethan,Small Business,Furniture,Bookshelf,6,234.83,148.42
+ORD-20213,2024-05-14,North,Noah,Small Business,Furniture,Office Chair,2,181.02,106.83
+ORD-20214,2024-05-03,South,Ada,Consumer,Office Supplies,Notebook Pack,2,6.21,2.02
+ORD-20215,2024-05-18,East,Ethan,Corporate,Electronics,Monitor,3,216.73,148.33
+ORD-20216,2024-05-06,South,Zara,Consumer,Electronics,Monitor,4,206.53,141.98
+ORD-20217,2024-05-05,South,Daniel,Consumer,Electronics,Laptop Stand,1,69.78,36.89
+ORD-20218,2024-05-28,South,Maya,Consumer,Office Supplies,Notebook Pack,3,5.97,2.04
+ORD-20219,2024-05-25,East,Noah,Consumer,Electronics,Monitor,4,209.17,148.76
+ORD-20220,2024-05-07,South,Noah,Small Business,Electronics,Laptop Stand,6,68.61,37.40
+ORD-20221,2024-05-25,West,Ada,Corporate,Furniture,Office Chair,2,185.25,113.27
+ORD-20222,2024-05-07,East,Maya,Corporate,Electronics,Keyboard,7,46.71,18.26
+ORD-20223,2024-05-01,North,Maya,Small Business,Electronics,USB-C Hub,3,53.98,26.73
+ORD-20224,2024-05-03,East,Daniel,Small Business,Furniture,Office Chair,1,178.41,112.98
+ORD-20225,2024-05-28,West,Ada,Corporate,Office Supplies,Ink Cartridge,4,41.36,23.62
+ORD-20226,2024-05-03,North,Noah,Small Business,Furniture,Desk,4,313.49,211.29
+ORD-20227,2024-05-25,South,Noah,Small Business,Furniture,Desk,3,328.35,205.22
+ORD-20228,2024-05-25,East,Daniel,Corporate,Office Supplies,Printer Paper Box,3,27.50,16.39
+ORD-20229,2024-05-09,West,Liam,Corporate,Electronics,Wireless Mouse,7,25.48,9.78
+ORD-20230,2024-05-25,West,Liam,Small Business,Furniture,Office Chair,2,178.17,110.53
+ORD-20231,2024-05-25,West,Ethan,Small Business,Electronics,Laptop Stand,7,66.97,37.46
+ORD-20232,2024-05-19,North,Ethan,Corporate,Electronics,Laptop Stand,2,67.37,36.74
+ORD-20233,2024-05-11,East,Zara,Corporate,Electronics,Monitor,2,213.14,141.33
+ORD-20234,2024-05-02,North,Zara,Small Business,Furniture,Desk,4,331.33,212.46
+ORD-20235,2024-05-02,East,Maya,Corporate,Electronics,Laptop Stand,8,69.03,37.90
+ORD-20236,2024-05-20,East,Daniel,Consumer,Furniture,Office Chair,4,176.68,107.27
+ORD-20237,2024-05-05,West,Ada,Corporate,Office Supplies,Notebook Pack,6,6.07,2.04
+ORD-20238,2024-05-04,North,Daniel,Consumer,Office Supplies,Notebook Pack,3,6.24,2.04
+ORD-20239,2024-05-01,North,Grace,Small Business,Office Supplies,Ink Cartridge,1,40.90,24.60
+ORD-20240,2024-05-07,South,Maya,Corporate,Furniture,Office Chair,6,186.43,110.91
+ORD-20241,2024-05-11,East,Daniel,Small Business,Furniture,Office Chair,6,173.35,109.76
+ORD-20242,2024-05-18,East,Zara,Small Business,Electronics,Wireless Mouse,2,24.01,10.23
+ORD-20243,2024-05-24,East,Maya,Corporate,Electronics,Monitor,5,217.17,143.50
+ORD-20244,2024-05-20,East,Liam,Consumer,Furniture,Desk,2,329.78,210.42
+ORD-20245,2024-05-04,East,Liam,Consumer,Furniture,Desk,4,314.18,211.18
+ORD-20246,2024-05-07,North,Maya,Corporate,Office Supplies,Notebook Pack,2,6.21,2.00
+ORD-20247,2024-05-10,South,Daniel,Small Business,Electronics,Laptop Stand,4,65.67,36.17
+ORD-20248,2024-05-15,South,Daniel,Corporate,Office Supplies,Printer Paper Box,6,29.11,15.68
+ORD-20249,2024-05-08,South,Daniel,Consumer,Electronics,Laptop Stand,1,69.03,36.15
+ORD-20250,2024-05-21,North,Grace,Corporate,Office Supplies,Desk Organizer,4,18.50,7.85
+ORD-20251,2024-06-23,South,Grace,Consumer,Electronics,Wireless Mouse,5,25.35,10.11
+ORD-20252,2024-06-06,South,Daniel,Corporate,Electronics,USB-C Hub,8,52.66,27.52
+ORD-20253,2024-06-05,North,Ada,Consumer,Furniture,Desk,2,322.17,208.21
+ORD-20254,2024-06-25,North,Ethan,Small Business,Office Supplies,Printer Paper Box,6,28.14,16.04
+ORD-20255,2024-06-05,West,Daniel,Corporate,Electronics,Wireless Mouse,5,25.54,10.15
+ORD-20256,2024-06-11,South,Noah,Corporate,Furniture,Desk,5,325.09,212.10
+ORD-20257,2024-06-19,South,Liam,Consumer,Electronics,Laptop Stand,5,66.44,35.93
+ORD-20258,2024-06-16,East,Daniel,Corporate,Electronics,Keyboard,7,44.69,18.40
+ORD-20259,2024-06-24,North,Zara,Corporate,Office Supplies,Ink Cartridge,6,41.42,23.99
+ORD-20260,2024-06-20,North,Ethan,Consumer,Furniture,Desk,2,317.29,213.39
+ORD-20261,2024-06-11,South,Maya,Small Business,Electronics,Wireless Mouse,5,25.55,9.82
+ORD-20262,2024-06-23,North,Maya,Corporate,Furniture,Desk,7,319.48,209.41
+ORD-20263,2024-06-26,East,Liam,Corporate,Office Supplies,Printer Paper Box,6,27.51,15.96
+ORD-20264,2024-06-27,East,Zara,Small Business,Furniture,Desk,6,319.40,204.73
+ORD-20265,2024-06-10,West,Ada,Consumer,Furniture,Office Chair,5,179.06,109.30
+ORD-20266,2024-06-18,South,Ada,Corporate,Furniture,Bookshelf,7,249.00,149.36
+ORD-20267,2024-06-01,West,Ethan,Consumer,Electronics,Wireless Mouse,3,25.03,10.04
+ORD-20268,2024-06-28,East,Zara,Corporate,Electronics,USB-C Hub,6,50.47,26.92
+ORD-20269,2024-06-07,East,Liam,Small Business,Office Supplies,Printer Paper Box,5,27.55,15.98
+ORD-20270,2024-06-05,West,Ada,Small Business,Furniture,Bookshelf,6,240.83,153.08
+ORD-20271,2024-06-11,East,Ethan,Corporate,Furniture,Office Chair,7,185.30,107.72
+ORD-20272,2024-06-19,East,Ada,Small Business,Office Supplies,Ink Cartridge,2,43.67,24.16
+ORD-20273,2024-06-09,East,Maya,Consumer,Electronics,USB-C Hub,4,51.72,27.36
+ORD-20274,2024-06-18,North,Zara,Small Business,Office Supplies,Ink Cartridge,3,41.39,24.18
+ORD-20275,2024-06-21,South,Noah,Consumer,Electronics,Keyboard,1,43.67,18.47
+ORD-20276,2024-06-01,North,Ada,Consumer,Office Supplies,Notebook Pack,2,5.84,1.96
+ORD-20277,2024-06-12,West,Daniel,Consumer,Office Supplies,Notebook Pack,1,6.17,2.03
+ORD-20278,2024-06-08,North,Maya,Small Business,Electronics,Monitor,6,216.04,145.80
+ORD-20279,2024-06-15,East,Maya,Corporate,Electronics,USB-C Hub,6,50.10,26.22
+ORD-20280,2024-06-05,East,Noah,Small Business,Electronics,Wireless Mouse,5,24.36,10.12
+ORD-20281,2024-06-26,South,Grace,Corporate,Electronics,Keyboard,6,45.10,18.24
+ORD-20282,2024-06-13,North,Maya,Corporate,Furniture,Office Chair,4,175.54,109.75
+ORD-20283,2024-06-18,South,Ada,Consumer,Office Supplies,Ink Cartridge,4,41.35,24.57
+ORD-20284,2024-06-05,North,Ada,Corporate,Furniture,Desk,2,308.23,210.57
+ORD-20285,2024-06-24,West,Zara,Corporate,Office Supplies,Printer Paper Box,3,27.74,16.46
+ORD-20286,2024-06-19,North,Noah,Corporate,Furniture,Desk,2,327.29,214.24
+ORD-20287,2024-06-16,West,Noah,Consumer,Office Supplies,Printer Paper Box,4,28.16,15.96
+ORD-20288,2024-06-09,East,Daniel,Corporate,Office Supplies,Notebook Pack,7,5.85,1.94
+ORD-20289,2024-06-20,South,Daniel,Consumer,Furniture,Bookshelf,5,236.12,148.95
+ORD-20290,2024-06-12,South,Zara,Small Business,Furniture,Bookshelf,4,241.34,147.37
+ORD-20291,2024-06-14,West,Ethan,Small Business,Electronics,USB-C Hub,4,51.73,27.77
+ORD-20292,2024-06-24,West,Liam,Consumer,Office Supplies,Ink Cartridge,4,42.16,23.79
+ORD-20293,2024-06-20,North,Grace,Corporate,Furniture,Office Chair,4,174.21,107.77
+ORD-20294,2024-06-07,North,Noah,Small Business,Electronics,Wireless Mouse,2,25.85,10.28
+ORD-20295,2024-06-02,South,Ethan,Corporate,Furniture,Office Chair,4,179.42,107.58
+ORD-20296,2024-06-07,West,Zara,Consumer,Furniture,Desk,4,318.96,210.97
+ORD-20297,2024-06-14,North,Grace,Corporate,Office Supplies,Desk Organizer,3,19.10,8.21
+ORD-20298,2024-06-25,South,Ethan,Small Business,Electronics,Monitor,1,213.13,143.85
+ORD-20299,2024-06-14,South,Noah,Consumer,Office Supplies,Desk Organizer,3,18.47,8.23
+ORD-20300,2024-06-26,East,Ethan,Small Business,Electronics,USB-C Hub,4,52.98,27.29
+ORD-20301,2024-07-11,North,Grace,Small Business,Furniture,Desk,3,318.54,212.35
+ORD-20302,2024-07-02,South,Daniel,Consumer,Office Supplies,Notebook Pack,3,5.83,2.01
+ORD-20303,2024-07-19,North,Ada,Small Business,Furniture,Desk,4,332.19,215.90
+ORD-20304,2024-07-12,North,Maya,Consumer,Furniture,Bookshelf,3,242.73,150.14
+ORD-20305,2024-07-08,South,Grace,Corporate,Electronics,Laptop Stand,3,67.52,37.74
+ORD-20306,2024-07-18,West,Grace,Consumer,Office Supplies,Notebook Pack,5,5.77,2.02
+ORD-20307,2024-07-28,South,Liam,Consumer,Electronics,Laptop Stand,2,67.16,37.97
+ORD-20308,2024-07-10,North,Zara,Small Business,Office Supplies,Notebook Pack,5,6.19,2.04
+ORD-20309,2024-07-17,West,Maya,Consumer,Furniture,Office Chair,1,174.51,107.72
+ORD-20310,2024-07-13,South,Liam,Consumer,Furniture,Desk,2,320.77,211.60
+ORD-20311,2024-07-12,East,Ethan,Small Business,Office Supplies,Notebook Pack,6,6.06,1.95
+ORD-20312,2024-07-12,North,Ethan,Corporate,Furniture,Desk,3,324.18,207.46
+ORD-20313,2024-07-12,West,Daniel,Consumer,Electronics,Keyboard,5,43.77,18.35
+ORD-20314,2024-07-16,East,Noah,Corporate,Office Supplies,Notebook Pack,5,5.91,1.97
+ORD-20315,2024-07-16,East,Liam,Consumer,Office Supplies,Desk Organizer,5,18.47,7.83
+ORD-20316,2024-07-12,West,Daniel,Consumer,Office Supplies,Desk Organizer,2,19.11,7.96
+ORD-20317,2024-07-08,North,Maya,Consumer,Office Supplies,Ink Cartridge,4,40.58,23.88
+ORD-20318,2024-07-28,East,Maya,Corporate,Furniture,Office Chair,7,179.37,107.95
+ORD-20319,2024-07-16,South,Ada,Consumer,Office Supplies,Ink Cartridge,5,40.95,23.30
+ORD-20320,2024-07-05,North,Daniel,Consumer,Furniture,Office Chair,5,182.75,110.80
+ORD-20321,2024-07-12,West,Grace,Corporate,Electronics,Laptop Stand,7,67.33,37.86
+ORD-20322,2024-07-26,North,Maya,Consumer,Electronics,Laptop Stand,4,68.14,36.27
+ORD-20323,2024-07-04,North,Ethan,Small Business,Electronics,Laptop Stand,6,70.52,36.20
+ORD-20324,2024-07-18,East,Ethan,Corporate,Electronics,Keyboard,7,45.20,17.70
+ORD-20325,2024-07-17,South,Noah,Consumer,Office Supplies,Printer Paper Box,4,28.03,16.08
+ORD-20326,2024-07-15,East,Ada,Small Business,Furniture,Bookshelf,3,240.46,151.48
+ORD-20327,2024-07-16,North,Ethan,Consumer,Furniture,Bookshelf,2,243.08,148.28
+ORD-20328,2024-07-23,East,Grace,Corporate,Office Supplies,Printer Paper Box,2,27.20,15.93
+ORD-20329,2024-07-04,East,Daniel,Consumer,Office Supplies,Notebook Pack,2,6.19,1.97
+ORD-20330,2024-07-04,South,Ethan,Small Business,Furniture,Office Chair,4,185.87,107.18
+ORD-20331,2024-07-22,East,Maya,Corporate,Electronics,USB-C Hub,8,51.64,27.34
+ORD-20332,2024-07-23,West,Noah,Small Business,Office Supplies,Ink Cartridge,5,43.33,23.76
+ORD-20333,2024-07-27,West,Zara,Small Business,Office Supplies,Desk Organizer,5,19.59,8.24
+ORD-20334,2024-07-04,North,Daniel,Small Business,Electronics,USB-C Hub,4,52.37,27.30
+ORD-20335,2024-07-05,South,Ethan,Consumer,Office Supplies,Printer Paper Box,2,27.57,16.40
+ORD-20336,2024-07-21,South,Ethan,Small Business,Electronics,Monitor,6,213.24,148.65
+ORD-20337,2024-07-16,South,Liam,Consumer,Furniture,Bookshelf,3,245.64,148.82
+ORD-20338,2024-07-27,East,Ada,Corporate,Office Supplies,Printer Paper Box,4,28.97,16.18
+ORD-20339,2024-07-24,West,Grace,Consumer,Office Supplies,Desk Organizer,5,18.83,8.19
+ORD-20340,2024-07-26,West,Ada,Small Business,Office Supplies,Ink Cartridge,6,43.28,23.38
+ORD-20341,2024-07-01,West,Liam,Corporate,Electronics,Laptop Stand,7,70.11,36.48
+ORD-20342,2024-07-04,East,Liam,Small Business,Office Supplies,Ink Cartridge,5,42.87,23.48
+ORD-20343,2024-07-11,North,Daniel,Consumer,Office Supplies,Notebook Pack,2,6.07,1.94
+ORD-20344,2024-07-18,West,Noah,Consumer,Electronics,Monitor,5,205.88,145.35
+ORD-20345,2024-07-01,North,Zara,Small Business,Furniture,Bookshelf,7,237.90,154.44
+ORD-20346,2024-07-09,South,Ethan,Corporate,Office Supplies,Printer Paper Box,6,27.63,15.53
+ORD-20347,2024-07-28,East,Liam,Consumer,Office Supplies,Notebook Pack,4,5.77,2.06
+ORD-20348,2024-07-08,North,Daniel,Consumer,Electronics,Wireless Mouse,4,24.12,10.30
+ORD-20349,2024-07-22,North,Maya,Small Business,Office Supplies,Desk Organizer,6,18.96,7.88
+ORD-20350,2024-07-04,East,Ada,Small Business,Electronics,USB-C Hub,6,51.54,26.45
+ORD-20351,2024-08-13,South,Ethan,Consumer,Office Supplies,Notebook Pack,3,5.97,2.06
+ORD-20352,2024-08-09,South,Noah,Small Business,Electronics,USB-C Hub,6,54.08,27.79
+ORD-20353,2024-08-03,North,Zara,Small Business,Furniture,Desk,3,313.94,204.90
+ORD-20354,2024-08-11,North,Maya,Consumer,Furniture,Desk,4,309.66,207.72
+ORD-20355,2024-08-02,East,Zara,Small Business,Office Supplies,Ink Cartridge,7,42.75,24.05
+ORD-20356,2024-08-10,South,Ethan,Consumer,Office Supplies,Notebook Pack,3,5.87,2.05
+ORD-20357,2024-08-10,North,Ethan,Small Business,Electronics,Monitor,5,215.72,140.88
+ORD-20358,2024-08-27,North,Ada,Small Business,Furniture,Desk,3,309.43,205.31
+ORD-20359,2024-08-23,South,Ethan,Consumer,Furniture,Desk,1,324.97,210.53
+ORD-20360,2024-08-28,South,Liam,Small Business,Furniture,Bookshelf,6,237.04,147.31
+ORD-20361,2024-08-15,East,Zara,Small Business,Electronics,Wireless Mouse,2,24.47,10.24
+ORD-20362,2024-08-20,South,Grace,Consumer,Office Supplies,Ink Cartridge,5,41.82,23.44
+ORD-20363,2024-08-05,South,Maya,Small Business,Furniture,Bookshelf,2,232.47,148.37
+ORD-20364,2024-08-27,West,Ada,Small Business,Electronics,Monitor,6,208.66,149.16
+ORD-20365,2024-08-06,West,Noah,Corporate,Office Supplies,Notebook Pack,8,5.97,2.06
+ORD-20366,2024-08-19,West,Ada,Corporate,Office Supplies,Ink Cartridge,2,42.70,24.26
+ORD-20367,2024-08-07,West,Maya,Consumer,Electronics,Wireless Mouse,2,25.36,10.04
+ORD-20368,2024-08-01,East,Ada,Small Business,Office Supplies,Ink Cartridge,1,43.55,23.83
+ORD-20369,2024-08-13,South,Daniel,Small Business,Office Supplies,Notebook Pack,3,5.95,2.05
+ORD-20370,2024-08-26,East,Daniel,Consumer,Furniture,Office Chair,3,185.26,107.63
+ORD-20371,2024-08-19,West,Ada,Corporate,Furniture,Office Chair,3,173.81,109.19
+ORD-20372,2024-08-03,North,Noah,Small Business,Electronics,USB-C Hub,5,53.82,26.87
+ORD-20373,2024-08-28,North,Liam,Consumer,Electronics,USB-C Hub,2,53.97,27.30
+ORD-20374,2024-08-17,East,Maya,Consumer,Furniture,Bookshelf,5,237.30,151.75
+ORD-20375,2024-08-21,East,Ethan,Corporate,Furniture,Office Chair,7,185.80,108.23
+ORD-20376,2024-08-03,West,Zara,Small Business,Office Supplies,Notebook Pack,2,6.13,2.06
+ORD-20377,2024-08-03,South,Daniel,Corporate,Office Supplies,Desk Organizer,7,18.30,8.14
+ORD-20378,2024-08-28,West,Zara,Corporate,Electronics,Keyboard,2,43.51,17.92
+ORD-20379,2024-08-06,West,Liam,Consumer,Furniture,Desk,2,326.34,203.74
+ORD-20380,2024-08-01,East,Zara,Consumer,Electronics,Monitor,2,207.05,148.02
+ORD-20381,2024-08-18,West,Grace,Consumer,Electronics,USB-C Hub,5,51.53,26.21
+ORD-20382,2024-08-11,South,Noah,Small Business,Electronics,Keyboard,3,44.63,17.80
+ORD-20383,2024-08-15,West,Daniel,Small Business,Furniture,Desk,6,310.54,215.71
+ORD-20384,2024-08-02,North,Noah,Small Business,Furniture,Office Chair,5,186.23,111.25
+ORD-20385,2024-08-01,East,Liam,Consumer,Furniture,Desk,4,326.87,210.85
+ORD-20386,2024-08-05,North,Zara,Consumer,Electronics,USB-C Hub,2,50.30,26.55
+ORD-20387,2024-08-18,East,Zara,Consumer,Furniture,Desk,4,320.74,212.98
+ORD-20388,2024-08-09,South,Liam,Corporate,Office Supplies,Printer Paper Box,8,27.71,15.59
+ORD-20389,2024-08-09,North,Maya,Small Business,Office Supplies,Desk Organizer,5,19.59,7.79
+ORD-20390,2024-08-23,East,Ada,Corporate,Office Supplies,Printer Paper Box,4,27.84,16.40
+ORD-20391,2024-08-03,West,Ethan,Small Business,Electronics,USB-C Hub,2,51.48,26.83
+ORD-20392,2024-08-02,West,Ethan,Small Business,Electronics,Laptop Stand,2,70.04,36.90
+ORD-20393,2024-08-02,West,Ada,Small Business,Electronics,USB-C Hub,7,51.58,26.94
+ORD-20394,2024-08-25,South,Noah,Small Business,Furniture,Bookshelf,6,232.54,145.83
+ORD-20395,2024-08-01,North,Daniel,Small Business,Office Supplies,Ink Cartridge,2,40.49,23.81
+ORD-20396,2024-08-19,North,Daniel,Corporate,Office Supplies,Notebook Pack,3,5.82,1.96
+ORD-20397,2024-08-14,North,Maya,Small Business,Office Supplies,Ink Cartridge,6,43.40,23.53
+ORD-20398,2024-08-27,East,Noah,Small Business,Furniture,Office Chair,2,177.22,107.57
+ORD-20399,2024-08-05,North,Zara,Corporate,Electronics,USB-C Hub,5,53.65,26.96
+ORD-20400,2024-08-15,West,Maya,Consumer,Electronics,Wireless Mouse,2,24.53,9.98
+ORD-20401,2024-09-08,South,Ada,Consumer,Office Supplies,Printer Paper Box,1,26.90,16.44
+ORD-20402,2024-09-23,West,Grace,Corporate,Electronics,Laptop Stand,3,68.70,37.29
+ORD-20403,2024-09-22,North,Grace,Small Business,Electronics,Monitor,3,204.99,148.80
+ORD-20404,2024-09-05,North,Liam,Corporate,Furniture,Bookshelf,4,247.26,149.73
+ORD-20405,2024-09-22,North,Liam,Corporate,Office Supplies,Desk Organizer,5,18.52,8.22
+ORD-20406,2024-09-06,West,Ethan,Small Business,Electronics,Monitor,3,203.99,148.06
+ORD-20407,2024-09-22,North,Liam,Consumer,Furniture,Bookshelf,3,234.44,148.71
+ORD-20408,2024-09-03,North,Noah,Small Business,Electronics,Keyboard,7,43.26,17.66
+ORD-20409,2024-09-26,East,Daniel,Consumer,Electronics,Laptop Stand,3,70.27,37.58
+ORD-20410,2024-09-27,East,Zara,Corporate,Office Supplies,Ink Cartridge,7,41.57,23.29
+ORD-20411,2024-09-15,East,Grace,Corporate,Electronics,USB-C Hub,5,50.42,27.38
+ORD-20412,2024-09-01,North,Liam,Corporate,Furniture,Office Chair,2,175.31,110.21
+ORD-20413,2024-09-05,South,Liam,Small Business,Electronics,USB-C Hub,6,52.55,26.65
+ORD-20414,2024-09-02,East,Maya,Consumer,Electronics,Monitor,2,206.48,142.46
+ORD-20415,2024-09-03,West,Grace,Corporate,Furniture,Desk,7,309.21,209.43
+ORD-20416,2024-09-19,South,Maya,Small Business,Electronics,Monitor,5,206.70,143.26
+ORD-20417,2024-09-16,North,Ethan,Small Business,Office Supplies,Notebook Pack,7,6.10,2.04
+ORD-20418,2024-09-15,North,Grace,Consumer,Furniture,Desk,5,315.52,209.20
+ORD-20419,2024-09-03,West,Grace,Small Business,Electronics,USB-C Hub,2,50.72,26.67
+ORD-20420,2024-09-23,East,Daniel,Consumer,Office Supplies,Notebook Pack,2,6.15,1.96
+ORD-20421,2024-09-22,West,Liam,Consumer,Furniture,Desk,3,319.10,206.64
+ORD-20422,2024-09-13,West,Daniel,Consumer,Electronics,Keyboard,3,44.48,18.09
+ORD-20423,2024-09-20,West,Daniel,Corporate,Office Supplies,Notebook Pack,6,6.01,1.99
+ORD-20424,2024-09-11,South,Ethan,Consumer,Electronics,Keyboard,5,45.16,18.27
+ORD-20425,2024-09-01,West,Zara,Small Business,Office Supplies,Ink Cartridge,4,40.98,24.00
+ORD-20426,2024-09-27,South,Ada,Consumer,Electronics,Keyboard,5,45.79,17.91
+ORD-20427,2024-09-18,South,Ethan,Small Business,Furniture,Office Chair,5,173.59,109.48
+ORD-20428,2024-09-08,West,Zara,Corporate,Furniture,Bookshelf,2,246.19,149.88
+ORD-20429,2024-09-03,West,Daniel,Small Business,Office Supplies,Ink Cartridge,5,40.76,23.52
+ORD-20430,2024-09-11,West,Maya,Consumer,Furniture,Bookshelf,4,234.21,150.99
+ORD-20431,2024-09-07,West,Liam,Small Business,Electronics,Monitor,6,214.66,142.47
+ORD-20432,2024-09-17,East,Daniel,Small Business,Office Supplies,Ink Cartridge,4,41.69,24.35
+ORD-20433,2024-09-10,West,Grace,Corporate,Electronics,Monitor,7,209.39,141.77
+ORD-20434,2024-09-28,South,Ada,Small Business,Electronics,Monitor,6,202.19,146.86
+ORD-20435,2024-09-13,North,Noah,Small Business,Furniture,Desk,2,322.50,205.48
+ORD-20436,2024-09-13,North,Maya,Consumer,Office Supplies,Ink Cartridge,4,42.04,24.39
+ORD-20437,2024-09-21,South,Ada,Consumer,Furniture,Desk,4,315.73,212.25
+ORD-20438,2024-09-06,South,Zara,Corporate,Office Supplies,Printer Paper Box,7,28.94,15.69
+ORD-20439,2024-09-22,South,Zara,Corporate,Electronics,Monitor,5,208.05,148.89
+ORD-20440,2024-09-01,West,Ada,Consumer,Office Supplies,Desk Organizer,2,19.47,8.11
+ORD-20441,2024-09-24,West,Ethan,Corporate,Electronics,Keyboard,8,46.21,17.99
+ORD-20442,2024-09-15,North,Noah,Small Business,Furniture,Office Chair,6,172.87,108.88
+ORD-20443,2024-09-07,South,Zara,Small Business,Office Supplies,Ink Cartridge,5,43.54,24.36
+ORD-20444,2024-09-17,South,Noah,Small Business,Furniture,Bookshelf,3,238.50,151.01
+ORD-20445,2024-09-20,West,Daniel,Small Business,Electronics,USB-C Hub,5,50.00,27.21
+ORD-20446,2024-09-15,West,Grace,Corporate,Office Supplies,Desk Organizer,8,19.58,7.96
+ORD-20447,2024-09-15,West,Maya,Corporate,Electronics,Keyboard,8,43.54,17.53
+ORD-20448,2024-09-15,South,Ethan,Small Business,Office Supplies,Printer Paper Box,6,28.95,15.88
+ORD-20449,2024-09-01,North,Ethan,Consumer,Electronics,USB-C Hub,2,53.60,27.09
+ORD-20450,2024-09-23,East,Maya,Corporate,Office Supplies,Ink Cartridge,2,42.37,24.04
+ORD-20451,2024-10-23,South,Zara,Consumer,Office Supplies,Desk Organizer,3,19.04,8.14
+ORD-20452,2024-10-06,South,Daniel,Small Business,Office Supplies,Ink Cartridge,2,41.48,24.46
+ORD-20453,2024-10-03,South,Noah,Corporate,Electronics,Wireless Mouse,2,24.78,9.77
+ORD-20454,2024-10-05,North,Liam,Small Business,Furniture,Bookshelf,5,243.62,151.79
+ORD-20455,2024-10-27,North,Maya,Small Business,Furniture,Bookshelf,3,248.13,147.45
+ORD-20456,2024-10-06,East,Grace,Consumer,Electronics,USB-C Hub,2,50.61,27.26
+ORD-20457,2024-10-21,North,Liam,Small Business,Electronics,Wireless Mouse,2,24.88,10.04
+ORD-20458,2024-10-09,East,Ada,Small Business,Furniture,Office Chair,3,173.96,112.10
+ORD-20459,2024-10-09,East,Grace,Corporate,Office Supplies,Desk Organizer,3,19.66,7.78
+ORD-20460,2024-10-03,North,Ethan,Consumer,Electronics,Laptop Stand,2,67.04,36.95
+ORD-20461,2024-10-11,West,Zara,Consumer,Office Supplies,Desk Organizer,3,19.60,8.00
+ORD-20462,2024-10-06,North,Maya,Consumer,Furniture,Office Chair,5,175.61,111.16
+ORD-20463,2024-10-23,East,Noah,Corporate,Office Supplies,Notebook Pack,6,5.82,1.98
+ORD-20464,2024-10-15,South,Grace,Corporate,Office Supplies,Printer Paper Box,8,27.34,16.25
+ORD-20465,2024-10-28,East,Daniel,Corporate,Electronics,Laptop Stand,5,68.38,38.05
+ORD-20466,2024-10-21,South,Noah,Small Business,Office Supplies,Printer Paper Box,3,28.89,16.44
+ORD-20467,2024-10-02,East,Liam,Small Business,Furniture,Desk,6,308.97,210.65
+ORD-20468,2024-10-08,East,Noah,Small Business,Furniture,Office Chair,7,182.23,112.61
+ORD-20469,2024-10-06,East,Liam,Corporate,Electronics,Monitor,8,205.54,143.98
+ORD-20470,2024-10-27,East,Zara,Small Business,Office Supplies,Printer Paper Box,3,28.02,15.74
+ORD-20471,2024-10-03,East,Ada,Corporate,Furniture,Bookshelf,8,234.90,150.57
+ORD-20472,2024-10-04,North,Ethan,Consumer,Electronics,Laptop Stand,2,70.52,36.20
+ORD-20473,2024-10-04,North,Noah,Corporate,Office Supplies,Notebook Pack,5,6.05,2.00
+ORD-20474,2024-10-28,South,Noah,Corporate,Electronics,Laptop Stand,3,69.62,38.00
+ORD-20475,2024-10-20,East,Noah,Corporate,Electronics,Laptop Stand,6,65.69,37.25
+ORD-20476,2024-10-28,North,Daniel,Small Business,Furniture,Office Chair,6,185.48,111.00
+ORD-20477,2024-10-15,North,Daniel,Consumer,Office Supplies,Notebook Pack,3,5.93,2.01
+ORD-20478,2024-10-01,East,Zara,Consumer,Furniture,Bookshelf,2,249.36,149.82
+ORD-20479,2024-10-02,South,Grace,Consumer,Furniture,Bookshelf,2,249.44,148.51
+ORD-20480,2024-10-25,North,Noah,Corporate,Furniture,Bookshelf,9,242.05,149.82
+ORD-20481,2024-10-20,North,Liam,Small Business,Office Supplies,Desk Organizer,3,18.43,7.86
+ORD-20482,2024-10-10,South,Liam,Corporate,Electronics,Keyboard,4,45.92,17.53
+ORD-20483,2024-10-03,East,Maya,Corporate,Furniture,Office Chair,6,177.66,111.72
+ORD-20484,2024-10-22,South,Zara,Consumer,Furniture,Office Chair,2,184.25,110.42
+ORD-20485,2024-10-15,South,Grace,Corporate,Office Supplies,Desk Organizer,7,18.96,7.90
+ORD-20486,2024-10-08,East,Noah,Small Business,Furniture,Bookshelf,2,234.92,152.92
+ORD-20487,2024-10-05,North,Grace,Small Business,Furniture,Bookshelf,3,238.42,148.27
+ORD-20488,2024-10-26,North,Maya,Small Business,Furniture,Desk,4,321.38,212.93
+ORD-20489,2024-10-13,West,Daniel,Corporate,Electronics,Wireless Mouse,6,25.88,9.83
+ORD-20490,2024-10-07,North,Noah,Small Business,Electronics,Monitor,2,201.73,147.58
+ORD-20491,2024-10-10,East,Zara,Small Business,Furniture,Desk,5,319.81,213.62
+ORD-20492,2024-10-12,North,Grace,Consumer,Electronics,Wireless Mouse,4,24.89,10.12
+ORD-20493,2024-10-17,South,Daniel,Small Business,Furniture,Office Chair,3,173.06,111.71
+ORD-20494,2024-10-21,West,Noah,Consumer,Furniture,Office Chair,4,174.39,112.59
+ORD-20495,2024-10-05,West,Daniel,Small Business,Electronics,USB-C Hub,6,53.14,26.83
+ORD-20496,2024-10-19,South,Daniel,Consumer,Electronics,Wireless Mouse,3,24.95,9.76
+ORD-20497,2024-10-15,East,Ada,Corporate,Electronics,USB-C Hub,3,50.50,26.28
+ORD-20498,2024-10-10,West,Ethan,Small Business,Electronics,Monitor,5,202.15,148.62
+ORD-20499,2024-10-24,East,Grace,Corporate,Furniture,Bookshelf,5,238.64,152.09
+ORD-20500,2024-10-26,South,Ada,Corporate,Office Supplies,Printer Paper Box,3,27.14,15.90
+ORD-20501,2024-11-13,North,Maya,Corporate,Electronics,USB-C Hub,3,52.84,27.23
+ORD-20502,2024-11-21,East,Daniel,Corporate,Electronics,USB-C Hub,11,52.91,27.11
+ORD-20503,2024-11-02,West,Noah,Small Business,Electronics,Keyboard,7,45.27,18.29
+ORD-20504,2024-11-21,West,Ada,Corporate,Office Supplies,Notebook Pack,11,5.90,1.94
+ORD-20505,2024-11-04,South,Maya,Corporate,Electronics,Laptop Stand,3,65.52,36.87
+ORD-20506,2024-11-19,South,Grace,Corporate,Furniture,Office Chair,2,180.90,109.53
+ORD-20507,2024-11-05,South,Daniel,Corporate,Office Supplies,Ink Cartridge,6,41.28,24.55
+ORD-20508,2024-11-16,West,Zara,Small Business,Office Supplies,Notebook Pack,8,5.93,1.97
+ORD-20509,2024-11-28,East,Ethan,Consumer,Furniture,Office Chair,4,179.56,111.85
+ORD-20510,2024-11-26,East,Daniel,Small Business,Furniture,Office Chair,2,178.78,113.18
+ORD-20511,2024-11-02,West,Zara,Consumer,Furniture,Desk,3,322.10,214.27
+ORD-20512,2024-11-02,West,Noah,Corporate,Office Supplies,Desk Organizer,6,18.49,7.84
+ORD-20513,2024-11-25,West,Maya,Small Business,Furniture,Office Chair,6,176.08,109.07
+ORD-20514,2024-11-12,North,Daniel,Small Business,Electronics,Laptop Stand,5,68.43,37.21
+ORD-20515,2024-11-06,South,Liam,Small Business,Electronics,Laptop Stand,7,67.71,37.63
+ORD-20516,2024-11-25,West,Zara,Consumer,Office Supplies,Desk Organizer,2,19.72,8.22
+ORD-20517,2024-11-11,South,Daniel,Corporate,Furniture,Desk,7,320.62,207.21
+ORD-20518,2024-11-03,North,Daniel,Corporate,Furniture,Desk,8,327.91,210.28
+ORD-20519,2024-11-19,East,Ada,Small Business,Office Supplies,Ink Cartridge,8,43.04,23.67
+ORD-20520,2024-11-22,East,Zara,Corporate,Office Supplies,Notebook Pack,4,6.01,2.00
+ORD-20521,2024-11-16,South,Grace,Small Business,Electronics,Laptop Stand,4,68.09,35.95
+ORD-20522,2024-11-28,East,Liam,Corporate,Furniture,Bookshelf,7,236.42,153.76
+ORD-20523,2024-11-03,East,Daniel,Corporate,Electronics,Monitor,11,210.88,142.61
+ORD-20524,2024-11-17,West,Maya,Consumer,Electronics,Monitor,5,218.25,147.06
+ORD-20525,2024-11-03,South,Liam,Small Business,Office Supplies,Printer Paper Box,4,27.59,15.99
+ORD-20526,2024-11-09,North,Maya,Consumer,Office Supplies,Ink Cartridge,3,42.86,24.46
+ORD-20527,2024-11-18,South,Ada,Consumer,Electronics,USB-C Hub,4,52.07,27.77
+ORD-20528,2024-11-07,West,Liam,Small Business,Electronics,Wireless Mouse,3,24.05,9.88
+ORD-20529,2024-11-07,West,Ethan,Corporate,Office Supplies,Notebook Pack,11,6.23,2.05
+ORD-20530,2024-11-05,North,Grace,Small Business,Office Supplies,Printer Paper Box,3,27.44,15.67
+ORD-20531,2024-11-04,East,Daniel,Consumer,Electronics,Keyboard,2,44.96,17.72
+ORD-20532,2024-11-21,West,Liam,Small Business,Office Supplies,Desk Organizer,5,19.32,8.16
+ORD-20533,2024-11-22,North,Daniel,Consumer,Electronics,USB-C Hub,4,52.18,26.22
+ORD-20534,2024-11-26,North,Zara,Corporate,Office Supplies,Desk Organizer,11,18.79,8.13
+ORD-20535,2024-11-27,North,Liam,Consumer,Electronics,Monitor,1,205.27,141.76
+ORD-20536,2024-11-05,South,Ada,Consumer,Electronics,Laptop Stand,4,68.53,37.87
+ORD-20537,2024-11-05,West,Liam,Corporate,Electronics,Monitor,9,217.73,147.56
+ORD-20538,2024-11-25,West,Zara,Corporate,Furniture,Bookshelf,6,232.57,148.49
+ORD-20539,2024-11-28,South,Ada,Small Business,Office Supplies,Desk Organizer,3,18.84,7.82
+ORD-20540,2024-11-18,West,Daniel,Corporate,Electronics,USB-C Hub,6,52.75,27.57
+ORD-20541,2024-11-10,West,Ethan,Corporate,Electronics,Laptop Stand,6,66.14,37.47
+ORD-20542,2024-11-15,South,Daniel,Small Business,Office Supplies,Desk Organizer,8,19.73,7.99
+ORD-20543,2024-11-23,North,Daniel,Small Business,Office Supplies,Printer Paper Box,6,28.40,15.65
+ORD-20544,2024-11-11,South,Noah,Small Business,Electronics,Wireless Mouse,2,24.82,9.72
+ORD-20545,2024-11-26,West,Noah,Consumer,Furniture,Bookshelf,7,230.69,150.85
+ORD-20546,2024-11-09,East,Liam,Corporate,Office Supplies,Ink Cartridge,8,43.31,24.27
+ORD-20547,2024-11-15,North,Grace,Corporate,Office Supplies,Notebook Pack,9,6.08,1.99
+ORD-20548,2024-11-21,West,Ada,Consumer,Furniture,Office Chair,2,182.71,110.62
+ORD-20549,2024-11-01,West,Daniel,Corporate,Electronics,Wireless Mouse,6,24.72,10.10
+ORD-20550,2024-11-26,West,Daniel,Small Business,Electronics,USB-C Hub,5,50.85,26.76
+ORD-20551,2024-12-22,East,Noah,Corporate,Office Supplies,Notebook Pack,11,6.20,2.02
+ORD-20552,2024-12-03,North,Grace,Corporate,Electronics,Laptop Stand,9,70.05,37.31
+ORD-20553,2024-12-10,East,Grace,Small Business,Electronics,Wireless Mouse,2,25.95,10.04
+ORD-20554,2024-12-27,East,Noah,Small Business,Office Supplies,Ink Cartridge,5,43.05,24.35
+ORD-20555,2024-12-23,East,Maya,Small Business,Furniture,Bookshelf,4,248.11,153.75
+ORD-20556,2024-12-25,South,Zara,Corporate,Electronics,Wireless Mouse,5,25.56,9.78
+ORD-20557,2024-12-05,West,Liam,Small Business,Electronics,Keyboard,4,45.36,17.74
+ORD-20558,2024-12-06,East,Liam,Corporate,Electronics,Wireless Mouse,8,25.89,9.71
+ORD-20559,2024-12-15,North,Ethan,Corporate,Electronics,Keyboard,8,43.81,18.14
+ORD-20560,2024-12-19,East,Grace,Small Business,Office Supplies,Desk Organizer,4,19.26,8.21
+ORD-20561,2024-12-12,West,Daniel,Corporate,Furniture,Bookshelf,10,248.03,147.01
+ORD-20562,2024-12-15,East,Ethan,Small Business,Office Supplies,Ink Cartridge,6,41.52,23.64
+ORD-20563,2024-12-08,North,Ethan,Small Business,Furniture,Desk,7,308.85,211.87
+ORD-20564,2024-12-01,East,Liam,Small Business,Furniture,Desk,7,313.66,213.69
+ORD-20565,2024-12-15,South,Daniel,Corporate,Furniture,Office Chair,2,181.09,107.16
+ORD-20566,2024-12-21,South,Ethan,Small Business,Office Supplies,Ink Cartridge,3,41.15,23.81
+ORD-20567,2024-12-02,West,Daniel,Small Business,Electronics,Wireless Mouse,8,25.95,9.82
+ORD-20568,2024-12-21,South,Maya,Corporate,Furniture,Desk,8,325.23,208.14
+ORD-20569,2024-12-15,East,Maya,Small Business,Office Supplies,Printer Paper Box,6,27.25,15.66
+ORD-20570,2024-12-26,East,Liam,Consumer,Office Supplies,Notebook Pack,3,5.89,1.97
+ORD-20571,2024-12-14,North,Grace,Corporate,Office Supplies,Ink Cartridge,3,41.08,24.59
+ORD-20572,2024-12-14,North,Ada,Corporate,Office Supplies,Desk Organizer,7,19.22,7.83
+ORD-20573,2024-12-28,East,Ethan,Small Business,Electronics,Laptop Stand,6,66.58,38.02
+ORD-20574,2024-12-03,North,Zara,Consumer,Electronics,Laptop Stand,4,67.97,37.07
+ORD-20575,2024-12-19,South,Daniel,Consumer,Office Supplies,Desk Organizer,5,18.38,8.14
+ORD-20576,2024-12-06,East,Daniel,Corporate,Electronics,USB-C Hub,3,50.56,27.15
+ORD-20577,2024-12-04,East,Daniel,Corporate,Furniture,Desk,6,314.78,209.63
+ORD-20578,2024-12-12,East,Ada,Corporate,Electronics,Keyboard,11,45.01,18.45
+ORD-20579,2024-12-09,South,Liam,Small Business,Office Supplies,Desk Organizer,9,19.45,7.87
+ORD-20580,2024-12-22,South,Maya,Small Business,Furniture,Office Chair,4,183.69,106.76
+ORD-20581,2024-12-21,South,Maya,Corporate,Office Supplies,Ink Cartridge,7,42.98,23.32
+ORD-20582,2024-12-03,West,Maya,Consumer,Office Supplies,Printer Paper Box,6,27.53,16.37
+ORD-20583,2024-12-22,South,Grace,Small Business,Furniture,Office Chair,6,180.40,107.07
+ORD-20584,2024-12-06,West,Ethan,Corporate,Furniture,Office Chair,4,179.06,110.65
+ORD-20585,2024-12-03,East,Daniel,Corporate,Furniture,Bookshelf,2,232.95,148.84
+ORD-20586,2024-12-12,North,Grace,Small Business,Electronics,USB-C Hub,9,51.22,27.55
+ORD-20587,2024-12-25,West,Daniel,Consumer,Electronics,Wireless Mouse,6,24.83,9.95
+ORD-20588,2024-12-18,West,Ethan,Consumer,Office Supplies,Ink Cartridge,4,42.42,23.94
+ORD-20589,2024-12-05,North,Ada,Small Business,Office Supplies,Printer Paper Box,6,28.41,16.12
+ORD-20590,2024-12-23,West,Ada,Small Business,Electronics,Monitor,8,209.76,141.21
+ORD-20591,2024-12-04,South,Ada,Consumer,Office Supplies,Printer Paper Box,4,28.11,16.40
+ORD-20592,2024-12-05,West,Liam,Small Business,Electronics,Monitor,7,205.25,145.60
+ORD-20593,2024-12-13,South,Daniel,Small Business,Electronics,USB-C Hub,2,53.04,26.72
+ORD-20594,2024-12-19,West,Ada,Small Business,Office Supplies,Ink Cartridge,4,40.90,24.36
+ORD-20595,2024-12-16,East,Liam,Small Business,Office Supplies,Printer Paper Box,5,29.04,16.01
+ORD-20596,2024-12-03,South,Liam,Small Business,Furniture,Office Chair,3,180.72,112.05
+ORD-20597,2024-12-01,West,Maya,Consumer,Electronics,Keyboard,5,45.39,17.86
+ORD-20598,2024-12-16,South,Noah,Small Business,Furniture,Desk,8,312.17,215.79
+ORD-20599,2024-12-22,East,Ada,Corporate,Office Supplies,Ink Cartridge,4,42.55,24.07
+ORD-20600,2024-12-21,North,Ethan,Corporate,Furniture,Desk,9,317.94,215.67
+ORD-20601,2025-01-14,East,Daniel,Small Business,Furniture,Desk,5,319.39,204.43
+ORD-20602,2025-01-03,North,Grace,Consumer,Electronics,Monitor,5,215.34,146.38
+ORD-20603,2025-01-27,East,Zara,Small Business,Office Supplies,Ink Cartridge,2,42.29,24.41
+ORD-20604,2025-01-13,East,Noah,Corporate,Furniture,Bookshelf,3,231.80,151.28
+ORD-20605,2025-01-05,North,Zara,Small Business,Office Supplies,Printer Paper Box,1,28.06,15.61
+ORD-20606,2025-01-28,West,Zara,Consumer,Office Supplies,Ink Cartridge,4,42.91,24.29
+ORD-20607,2025-01-25,East,Liam,Small Business,Electronics,Laptop Stand,2,68.74,36.68
+ORD-20608,2025-01-22,North,Grace,Small Business,Electronics,Keyboard,4,43.96,17.93
+ORD-20609,2025-01-23,South,Noah,Small Business,Electronics,USB-C Hub,2,53.60,27.08
+ORD-20610,2025-01-27,East,Daniel,Small Business,Electronics,USB-C Hub,3,50.86,27.53
+ORD-20611,2025-01-26,North,Liam,Small Business,Furniture,Desk,2,324.26,213.64
+ORD-20612,2025-01-06,South,Noah,Corporate,Electronics,Laptop Stand,5,70.65,37.60
+ORD-20613,2025-01-23,West,Maya,Corporate,Electronics,Laptop Stand,7,68.71,37.90
+ORD-20614,2025-01-25,South,Daniel,Small Business,Electronics,Wireless Mouse,3,25.64,10.10
+ORD-20615,2025-01-28,North,Daniel,Small Business,Furniture,Bookshelf,5,239.66,145.54
+ORD-20616,2025-01-12,North,Liam,Corporate,Office Supplies,Desk Organizer,5,18.25,8.23
+ORD-20617,2025-01-04,East,Maya,Consumer,Electronics,Laptop Stand,2,69.63,35.95
+ORD-20618,2025-01-19,North,Maya,Small Business,Furniture,Desk,2,323.32,213.26
+ORD-20619,2025-01-16,North,Ethan,Consumer,Office Supplies,Printer Paper Box,2,28.77,15.82
+ORD-20620,2025-01-04,North,Liam,Consumer,Electronics,Wireless Mouse,2,24.68,9.86
+ORD-20621,2025-01-11,North,Liam,Small Business,Electronics,Monitor,2,207.89,142.07
+ORD-20622,2025-01-10,East,Noah,Corporate,Furniture,Bookshelf,2,234.18,150.05
+ORD-20623,2025-01-23,South,Ada,Corporate,Office Supplies,Ink Cartridge,7,41.87,23.87
+ORD-20624,2025-01-04,East,Ethan,Corporate,Electronics,Wireless Mouse,6,24.97,10.16
+ORD-20625,2025-01-17,South,Ethan,Consumer,Furniture,Desk,3,314.79,215.86
+ORD-20626,2025-01-27,North,Grace,Consumer,Office Supplies,Desk Organizer,1,19.01,7.86
+ORD-20627,2025-01-09,North,Grace,Small Business,Furniture,Desk,3,307.30,208.64
+ORD-20628,2025-01-08,North,Grace,Consumer,Furniture,Office Chair,4,178.82,109.74
+ORD-20629,2025-01-15,North,Daniel,Consumer,Furniture,Desk,4,318.91,209.58
+ORD-20630,2025-01-20,South,Zara,Corporate,Office Supplies,Ink Cartridge,1,40.36,23.41
+ORD-20631,2025-01-09,East,Noah,Consumer,Electronics,Monitor,2,203.09,147.08
+ORD-20632,2025-01-14,West,Ada,Consumer,Office Supplies,Notebook Pack,4,6.03,1.97
+ORD-20633,2025-01-13,West,Noah,Small Business,Electronics,Laptop Stand,2,69.10,36.10
+ORD-20634,2025-01-22,East,Zara,Small Business,Electronics,USB-C Hub,2,52.41,26.53
+ORD-20635,2025-01-20,East,Noah,Corporate,Electronics,USB-C Hub,3,51.11,26.71
+ORD-20636,2025-01-24,West,Ada,Small Business,Office Supplies,Ink Cartridge,5,42.92,24.59
+ORD-20637,2025-01-06,North,Ethan,Corporate,Electronics,Keyboard,6,46.19,18.18
+ORD-20638,2025-01-15,East,Ada,Corporate,Office Supplies,Ink Cartridge,3,42.40,24.07
+ORD-20639,2025-01-23,West,Liam,Small Business,Electronics,Wireless Mouse,3,24.25,9.94
+ORD-20640,2025-01-12,East,Maya,Corporate,Furniture,Bookshelf,4,237.93,146.61
+ORD-20641,2025-01-07,South,Liam,Consumer,Furniture,Bookshelf,2,241.74,149.04
+ORD-20642,2025-01-09,West,Maya,Small Business,Office Supplies,Ink Cartridge,1,43.26,24.71
+ORD-20643,2025-01-18,North,Maya,Consumer,Furniture,Desk,4,309.23,211.77
+ORD-20644,2025-01-12,South,Daniel,Corporate,Electronics,Keyboard,1,43.90,17.94
+ORD-20645,2025-01-17,South,Ada,Consumer,Furniture,Bookshelf,3,243.66,153.32
+ORD-20646,2025-01-18,North,Ethan,Small Business,Electronics,Laptop Stand,4,68.68,36.51
+ORD-20647,2025-01-20,South,Daniel,Consumer,Electronics,Monitor,4,211.39,141.29
+ORD-20648,2025-01-02,South,Liam,Corporate,Furniture,Bookshelf,7,238.31,148.52
+ORD-20649,2025-01-23,South,Grace,Corporate,Furniture,Desk,6,327.35,204.79
+ORD-20650,2025-01-02,South,Noah,Corporate,Electronics,USB-C Hub,2,52.31,26.31
+ORD-20651,2025-02-06,East,Noah,Consumer,Electronics,Wireless Mouse,2,24.04,9.78
+ORD-20652,2025-02-21,South,Maya,Corporate,Office Supplies,Ink Cartridge,9,42.77,23.48
+ORD-20653,2025-02-03,West,Ethan,Small Business,Furniture,Office Chair,2,179.88,109.50
+ORD-20654,2025-02-05,West,Liam,Consumer,Office Supplies,Printer Paper Box,2,28.87,16.39
+ORD-20655,2025-02-23,West,Daniel,Corporate,Furniture,Office Chair,2,183.25,111.06
+ORD-20656,2025-02-23,North,Liam,Consumer,Office Supplies,Printer Paper Box,1,27.52,15.60
+ORD-20657,2025-02-05,West,Daniel,Small Business,Electronics,Wireless Mouse,3,24.73,10.09
+ORD-20658,2025-02-20,West,Zara,Small Business,Furniture,Desk,2,311.74,206.44
+ORD-20659,2025-02-23,East,Grace,Corporate,Office Supplies,Ink Cartridge,5,43.66,24.51
+ORD-20660,2025-02-23,South,Liam,Corporate,Office Supplies,Printer Paper Box,6,28.38,15.81
+ORD-20661,2025-02-12,East,Zara,Corporate,Office Supplies,Ink Cartridge,2,43.45,24.62
+ORD-20662,2025-02-12,North,Liam,Small Business,Furniture,Office Chair,5,180.18,108.81
+ORD-20663,2025-02-02,North,Ada,Small Business,Electronics,Monitor,2,202.72,143.52
+ORD-20664,2025-02-09,South,Maya,Corporate,Furniture,Desk,2,330.95,213.90
+ORD-20665,2025-02-19,West,Zara,Small Business,Office Supplies,Printer Paper Box,6,28.35,16.31
+ORD-20666,2025-02-06,North,Maya,Consumer,Furniture,Bookshelf,2,238.33,149.36
+ORD-20667,2025-02-01,South,Maya,Consumer,Furniture,Office Chair,4,174.84,107.23
+ORD-20668,2025-02-27,South,Grace,Consumer,Office Supplies,Ink Cartridge,1,42.20,24.02
+ORD-20669,2025-02-13,East,Ada,Small Business,Furniture,Office Chair,6,186.66,108.36
+ORD-20670,2025-02-28,West,Daniel,Corporate,Office Supplies,Notebook Pack,7,6.17,2.02
+ORD-20671,2025-02-21,North,Maya,Consumer,Office Supplies,Notebook Pack,3,5.94,2.00
+ORD-20672,2025-02-13,North,Maya,Consumer,Electronics,Monitor,5,210.19,142.51
+ORD-20673,2025-02-23,East,Noah,Consumer,Furniture,Bookshelf,5,234.79,150.58
+ORD-20674,2025-02-22,South,Daniel,Small Business,Office Supplies,Desk Organizer,1,18.64,8.22
+ORD-20675,2025-02-22,East,Zara,Corporate,Electronics,Laptop Stand,5,69.90,36.68
+ORD-20676,2025-02-19,West,Noah,Corporate,Electronics,Laptop Stand,7,66.32,37.21
+ORD-20677,2025-02-11,North,Noah,Corporate,Electronics,Keyboard,6,46.02,17.98
+ORD-20678,2025-02-19,South,Ethan,Corporate,Office Supplies,Desk Organizer,3,19.03,7.89
+ORD-20679,2025-02-09,West,Noah,Corporate,Office Supplies,Notebook Pack,5,6.07,2.04
+ORD-20680,2025-02-12,South,Zara,Corporate,Office Supplies,Desk Organizer,4,18.93,7.88
+ORD-20681,2025-02-11,West,Liam,Small Business,Electronics,USB-C Hub,6,53.71,26.38
+ORD-20682,2025-02-25,South,Ethan,Consumer,Furniture,Desk,4,331.85,208.02
+ORD-20683,2025-02-03,South,Noah,Small Business,Electronics,Laptop Stand,2,69.39,36.93
+ORD-20684,2025-02-20,South,Grace,Small Business,Furniture,Bookshelf,3,242.15,151.05
+ORD-20685,2025-02-19,South,Zara,Consumer,Electronics,Monitor,3,215.79,149.11
+ORD-20686,2025-02-17,North,Maya,Corporate,Office Supplies,Ink Cartridge,5,41.57,24.49
+ORD-20687,2025-02-14,West,Grace,Small Business,Electronics,Keyboard,6,43.75,17.71
+ORD-20688,2025-02-16,North,Maya,Corporate,Office Supplies,Printer Paper Box,2,27.84,15.60
+ORD-20689,2025-02-15,South,Zara,Small Business,Furniture,Desk,4,327.06,215.66
+ORD-20690,2025-02-06,South,Ethan,Corporate,Office Supplies,Notebook Pack,5,6.23,1.98
+ORD-20691,2025-02-12,North,Grace,Small Business,Electronics,Monitor,6,214.16,144.67
+ORD-20692,2025-02-03,East,Grace,Corporate,Furniture,Desk,7,310.13,215.03
+ORD-20693,2025-02-27,West,Zara,Corporate,Furniture,Bookshelf,8,246.65,148.47
+ORD-20694,2025-02-02,West,Maya,Corporate,Office Supplies,Notebook Pack,8,6.00,1.97
+ORD-20695,2025-02-09,North,Zara,Consumer,Electronics,Monitor,4,208.49,148.35
+ORD-20696,2025-02-15,East,Ada,Small Business,Electronics,Wireless Mouse,2,24.69,9.82
+ORD-20697,2025-02-13,North,Ada,Consumer,Electronics,Monitor,1,204.13,147.55
+ORD-20698,2025-02-20,West,Zara,Consumer,Electronics,Monitor,2,202.87,148.36
+ORD-20699,2025-02-09,West,Daniel,Consumer,Office Supplies,Printer Paper Box,3,29.04,16.12
+ORD-20700,2025-02-04,East,Liam,Small Business,Office Supplies,Desk Organizer,2,18.61,7.77
+ORD-20701,2025-03-05,North,Liam,Corporate,Furniture,Office Chair,4,183.43,109.38
+ORD-20702,2025-03-20,North,Daniel,Small Business,Office Supplies,Notebook Pack,3,5.90,2.01
+ORD-20703,2025-03-28,West,Grace,Small Business,Electronics,USB-C Hub,3,50.67,26.50
+ORD-20704,2025-03-07,West,Noah,Consumer,Electronics,Monitor,5,207.99,143.00
+ORD-20705,2025-03-21,West,Liam,Small Business,Furniture,Office Chair,5,181.59,110.83
+ORD-20706,2025-03-18,South,Grace,Small Business,Office Supplies,Desk Organizer,3,18.55,7.91
+ORD-20707,2025-03-18,East,Maya,Corporate,Electronics,Monitor,5,214.86,144.96
+ORD-20708,2025-03-08,South,Liam,Corporate,Electronics,Keyboard,8,46.04,18.30
+ORD-20709,2025-03-14,West,Ada,Corporate,Electronics,Laptop Stand,3,69.21,36.56
+ORD-20710,2025-03-08,West,Liam,Corporate,Electronics,Laptop Stand,5,67.03,36.37
+ORD-20711,2025-03-01,North,Ethan,Consumer,Electronics,USB-C Hub,1,51.89,27.53
+ORD-20712,2025-03-23,East,Ada,Small Business,Electronics,Laptop Stand,6,70.45,36.45
+ORD-20713,2025-03-06,East,Ada,Consumer,Electronics,USB-C Hub,2,54.00,27.28
+ORD-20714,2025-03-12,North,Liam,Corporate,Electronics,Keyboard,4,45.37,17.60
+ORD-20715,2025-03-16,East,Maya,Corporate,Office Supplies,Notebook Pack,6,6.18,2.04
+ORD-20716,2025-03-11,West,Grace,Consumer,Furniture,Bookshelf,4,245.76,147.97
+ORD-20717,2025-03-10,West,Noah,Corporate,Furniture,Desk,2,313.50,208.40
+ORD-20718,2025-03-26,West,Noah,Small Business,Electronics,Laptop Stand,6,67.79,37.78
+ORD-20719,2025-03-05,West,Zara,Small Business,Electronics,Wireless Mouse,5,25.11,10.12
+ORD-20720,2025-03-19,West,Grace,Consumer,Electronics,USB-C Hub,4,52.94,26.74
+ORD-20721,2025-03-26,East,Ada,Consumer,Office Supplies,Desk Organizer,1,18.75,7.96
+ORD-20722,2025-03-22,North,Liam,Corporate,Electronics,Wireless Mouse,3,25.52,9.74
+ORD-20723,2025-03-11,East,Grace,Consumer,Office Supplies,Ink Cartridge,3,40.58,24.40
+ORD-20724,2025-03-12,South,Noah,Small Business,Electronics,Wireless Mouse,3,25.14,10.19
+ORD-20725,2025-03-13,West,Daniel,Small Business,Electronics,Keyboard,2,43.24,17.70
+ORD-20726,2025-03-27,West,Zara,Corporate,Office Supplies,Printer Paper Box,6,28.70,15.85
+ORD-20727,2025-03-10,South,Noah,Small Business,Furniture,Bookshelf,2,248.28,154.20
+ORD-20728,2025-03-12,North,Maya,Consumer,Office Supplies,Notebook Pack,3,6.06,2.06
+ORD-20729,2025-03-04,West,Ada,Small Business,Office Supplies,Ink Cartridge,5,43.68,24.11
+ORD-20730,2025-03-18,East,Maya,Small Business,Furniture,Desk,7,317.40,205.50
+ORD-20731,2025-03-22,South,Ada,Consumer,Furniture,Desk,3,321.62,210.19
+ORD-20732,2025-03-18,South,Ada,Small Business,Furniture,Desk,2,323.50,215.93
+ORD-20733,2025-03-19,North,Ada,Small Business,Electronics,Monitor,3,217.88,146.68
+ORD-20734,2025-03-28,West,Liam,Consumer,Electronics,Wireless Mouse,1,25.47,10.19
+ORD-20735,2025-03-25,East,Zara,Consumer,Furniture,Office Chair,5,178.16,107.08
+ORD-20736,2025-03-01,North,Noah,Consumer,Office Supplies,Desk Organizer,4,19.47,8.17
+ORD-20737,2025-03-12,East,Daniel,Consumer,Office Supplies,Printer Paper Box,2,28.11,15.66
+ORD-20738,2025-03-07,West,Daniel,Consumer,Electronics,Monitor,5,210.09,146.01
+ORD-20739,2025-03-16,South,Ethan,Small Business,Furniture,Bookshelf,6,244.06,151.11
+ORD-20740,2025-03-17,West,Grace,Small Business,Electronics,Wireless Mouse,4,25.60,10.04
+ORD-20741,2025-03-07,East,Liam,Small Business,Electronics,Monitor,2,206.95,148.46
+ORD-20742,2025-03-22,South,Maya,Consumer,Furniture,Bookshelf,3,246.45,151.50
+ORD-20743,2025-03-07,South,Grace,Consumer,Furniture,Office Chair,3,185.58,110.87
+ORD-20744,2025-03-16,South,Ethan,Small Business,Office Supplies,Desk Organizer,4,19.32,8.21
+ORD-20745,2025-03-17,South,Liam,Small Business,Office Supplies,Printer Paper Box,2,28.69,15.83
+ORD-20746,2025-03-01,South,Ada,Consumer,Furniture,Office Chair,5,177.28,113.27
+ORD-20747,2025-03-25,North,Liam,Consumer,Furniture,Bookshelf,2,233.46,153.52
+ORD-20748,2025-03-02,South,Daniel,Consumer,Electronics,Monitor,5,203.36,146.50
+ORD-20749,2025-03-15,South,Ada,Corporate,Office Supplies,Notebook Pack,4,6.00,1.96
+ORD-20750,2025-03-14,East,Ada,Small Business,Electronics,Laptop Stand,4,70.55,37.04
+ORD-20751,2025-04-03,South,Zara,Corporate,Furniture,Desk,4,326.14,211.30
+ORD-20752,2025-04-13,South,Ethan,Small Business,Office Supplies,Printer Paper Box,7,29.10,15.90
+ORD-20753,2025-04-19,East,Ada,Consumer,Electronics,Wireless Mouse,2,25.71,10.07
+ORD-20754,2025-04-21,East,Grace,Small Business,Office Supplies,Printer Paper Box,3,27.54,15.56
+ORD-20755,2025-04-03,South,Maya,Corporate,Electronics,Keyboard,6,46.06,17.85
+ORD-20756,2025-04-02,East,Daniel,Small Business,Office Supplies,Printer Paper Box,3,28.76,16.11
+ORD-20757,2025-04-07,East,Grace,Consumer,Furniture,Office Chair,5,176.29,107.76
+ORD-20758,2025-04-12,West,Noah,Small Business,Electronics,Wireless Mouse,2,24.48,9.86
+ORD-20759,2025-04-15,South,Ethan,Corporate,Furniture,Bookshelf,6,238.90,146.75
+ORD-20760,2025-04-10,South,Zara,Consumer,Office Supplies,Printer Paper Box,1,28.16,16.19
+ORD-20761,2025-04-01,South,Ethan,Corporate,Electronics,Wireless Mouse,8,24.03,10.14
+ORD-20762,2025-04-08,East,Grace,Consumer,Furniture,Bookshelf,4,234.11,152.34
+ORD-20763,2025-04-22,East,Noah,Small Business,Office Supplies,Printer Paper Box,1,28.57,15.82
+ORD-20764,2025-04-24,West,Grace,Consumer,Office Supplies,Notebook Pack,1,6.03,2.05
+ORD-20765,2025-04-09,West,Daniel,Corporate,Office Supplies,Desk Organizer,8,18.95,8.08
+ORD-20766,2025-04-04,West,Liam,Small Business,Electronics,Monitor,6,201.72,140.83
+ORD-20767,2025-04-21,West,Grace,Corporate,Electronics,USB-C Hub,6,53.07,27.25
+ORD-20768,2025-04-04,South,Ada,Small Business,Furniture,Bookshelf,7,242.26,150.29
+ORD-20769,2025-04-04,West,Zara,Consumer,Office Supplies,Notebook Pack,1,6.17,2.02
+ORD-20770,2025-04-25,West,Daniel,Corporate,Office Supplies,Desk Organizer,3,19.73,7.96
+ORD-20771,2025-04-24,West,Ethan,Corporate,Office Supplies,Printer Paper Box,7,27.84,15.81
+ORD-20772,2025-04-26,North,Ada,Corporate,Electronics,Monitor,5,202.26,145.11
+ORD-20773,2025-04-26,West,Liam,Corporate,Electronics,Laptop Stand,7,67.38,37.73
+ORD-20774,2025-04-14,North,Grace,Corporate,Electronics,USB-C Hub,2,53.57,26.50
+ORD-20775,2025-04-06,East,Daniel,Small Business,Furniture,Desk,6,325.08,213.89
+ORD-20776,2025-04-27,East,Noah,Corporate,Electronics,Keyboard,4,45.18,18.37
+ORD-20777,2025-04-23,South,Daniel,Consumer,Office Supplies,Ink Cartridge,3,41.03,24.20
+ORD-20778,2025-04-01,South,Zara,Corporate,Electronics,Wireless Mouse,4,25.79,10.00
+ORD-20779,2025-04-12,North,Daniel,Consumer,Furniture,Desk,3,318.77,205.05
+ORD-20780,2025-04-03,West,Ada,Small Business,Office Supplies,Notebook Pack,1,5.92,1.98
+ORD-20781,2025-04-13,West,Ethan,Consumer,Electronics,Keyboard,2,44.80,18.51
+ORD-20782,2025-04-16,South,Ada,Consumer,Electronics,Monitor,2,213.45,144.10
+ORD-20783,2025-04-19,West,Noah,Corporate,Office Supplies,Printer Paper Box,8,28.06,16.02
+ORD-20784,2025-04-07,West,Noah,Corporate,Electronics,USB-C Hub,8,50.09,27.54
+ORD-20785,2025-04-04,East,Noah,Corporate,Office Supplies,Printer Paper Box,2,27.22,15.63
+ORD-20786,2025-04-11,North,Daniel,Consumer,Electronics,Monitor,1,208.60,147.59
+ORD-20787,2025-04-23,North,Noah,Corporate,Electronics,Laptop Stand,3,69.16,37.61
+ORD-20788,2025-04-10,South,Liam,Consumer,Office Supplies,Desk Organizer,5,19.38,8.17
+ORD-20789,2025-04-19,North,Liam,Small Business,Electronics,USB-C Hub,3,51.37,27.36
+ORD-20790,2025-04-20,West,Zara,Corporate,Office Supplies,Printer Paper Box,5,28.22,16.03
+ORD-20791,2025-04-04,West,Grace,Corporate,Furniture,Bookshelf,8,244.92,154.16
+ORD-20792,2025-04-16,North,Daniel,Consumer,Office Supplies,Notebook Pack,4,5.76,2.05
+ORD-20793,2025-04-12,East,Ethan,Small Business,Electronics,Keyboard,5,43.22,18.36
+ORD-20794,2025-04-26,North,Daniel,Corporate,Electronics,Wireless Mouse,5,24.55,9.88
+ORD-20795,2025-04-18,North,Noah,Corporate,Electronics,Keyboard,1,44.46,18.09
+ORD-20796,2025-04-28,West,Maya,Small Business,Office Supplies,Desk Organizer,1,19.47,8.01
+ORD-20797,2025-04-11,West,Daniel,Consumer,Electronics,Monitor,1,202.36,148.59
+ORD-20798,2025-04-14,South,Maya,Small Business,Furniture,Desk,2,330.60,212.72
+ORD-20799,2025-04-24,South,Liam,Small Business,Electronics,Laptop Stand,2,66.09,37.09
+ORD-20800,2025-04-25,North,Maya,Small Business,Office Supplies,Notebook Pack,2,6.05,2.04
+ORD-20801,2025-05-05,South,Liam,Consumer,Furniture,Desk,4,316.04,213.50
+ORD-20802,2025-05-25,South,Ada,Corporate,Furniture,Bookshelf,8,239.01,147.93
+ORD-20803,2025-05-23,North,Daniel,Corporate,Electronics,Keyboard,2,45.91,17.56
+ORD-20804,2025-05-15,South,Maya,Consumer,Office Supplies,Desk Organizer,5,18.72,7.85
+ORD-20805,2025-05-25,South,Grace,Corporate,Office Supplies,Ink Cartridge,8,42.79,24.23
+ORD-20806,2025-05-21,West,Noah,Corporate,Office Supplies,Notebook Pack,5,5.88,1.98
+ORD-20807,2025-05-08,North,Daniel,Corporate,Furniture,Office Chair,3,183.14,112.76
+ORD-20808,2025-05-10,East,Ada,Corporate,Electronics,Laptop Stand,5,66.81,37.11
+ORD-20809,2025-05-06,East,Zara,Small Business,Office Supplies,Desk Organizer,5,19.76,7.84
+ORD-20810,2025-05-19,South,Liam,Corporate,Office Supplies,Desk Organizer,8,18.50,7.86
+ORD-20811,2025-05-12,East,Zara,Small Business,Furniture,Desk,3,321.40,204.67
+ORD-20812,2025-05-21,West,Daniel,Corporate,Electronics,USB-C Hub,4,51.23,27.71
+ORD-20813,2025-05-14,South,Ada,Small Business,Electronics,Keyboard,5,46.33,17.79
+ORD-20814,2025-05-15,West,Daniel,Corporate,Electronics,Laptop Stand,4,67.92,36.00
+ORD-20815,2025-05-05,North,Noah,Small Business,Electronics,Laptop Stand,4,69.23,35.93
+ORD-20816,2025-05-09,North,Noah,Consumer,Furniture,Desk,4,324.66,206.22
+ORD-20817,2025-05-17,South,Daniel,Corporate,Office Supplies,Notebook Pack,5,5.78,2.00
+ORD-20818,2025-05-02,West,Zara,Corporate,Furniture,Bookshelf,4,248.27,153.60
+ORD-20819,2025-05-24,South,Ada,Small Business,Office Supplies,Notebook Pack,3,6.07,2.01
+ORD-20820,2025-05-18,South,Daniel,Corporate,Office Supplies,Desk Organizer,8,18.39,7.80
+ORD-20821,2025-05-27,South,Liam,Corporate,Office Supplies,Printer Paper Box,4,27.21,15.96
+ORD-20822,2025-05-06,South,Zara,Small Business,Electronics,Laptop Stand,5,69.11,37.47
+ORD-20823,2025-05-14,North,Ethan,Corporate,Office Supplies,Ink Cartridge,4,42.62,24.72
+ORD-20824,2025-05-12,East,Grace,Corporate,Furniture,Bookshelf,8,244.48,147.79
+ORD-20825,2025-05-18,East,Zara,Corporate,Electronics,USB-C Hub,2,53.20,26.89
+ORD-20826,2025-05-26,West,Maya,Small Business,Electronics,Keyboard,3,44.82,17.81
+ORD-20827,2025-05-19,South,Ethan,Small Business,Office Supplies,Printer Paper Box,4,27.25,16.38
+ORD-20828,2025-05-13,West,Daniel,Corporate,Furniture,Bookshelf,2,234.44,147.47
+ORD-20829,2025-05-06,East,Liam,Small Business,Electronics,Wireless Mouse,6,25.03,10.28
+ORD-20830,2025-05-10,South,Zara,Corporate,Electronics,Wireless Mouse,6,24.54,9.98
+ORD-20831,2025-05-15,South,Noah,Small Business,Furniture,Office Chair,6,177.96,108.55
+ORD-20832,2025-05-17,South,Ethan,Corporate,Electronics,USB-C Hub,3,52.43,26.86
+ORD-20833,2025-05-25,South,Ada,Small Business,Furniture,Office Chair,7,184.73,106.87
+ORD-20834,2025-05-15,South,Ethan,Consumer,Furniture,Desk,1,325.50,213.22
+ORD-20835,2025-05-22,North,Zara,Corporate,Office Supplies,Notebook Pack,2,6.00,2.01
+ORD-20836,2025-05-22,East,Daniel,Small Business,Office Supplies,Notebook Pack,2,5.97,1.96
+ORD-20837,2025-05-11,South,Liam,Corporate,Electronics,Monitor,7,204.63,148.88
+ORD-20838,2025-05-22,North,Liam,Consumer,Office Supplies,Desk Organizer,4,19.44,8.10
+ORD-20839,2025-05-21,West,Noah,Consumer,Electronics,Wireless Mouse,4,25.52,10.01
+ORD-20840,2025-05-28,South,Grace,Corporate,Furniture,Bookshelf,2,244.10,151.04
+ORD-20841,2025-05-03,West,Grace,Small Business,Electronics,USB-C Hub,4,54.00,26.95
+ORD-20842,2025-05-10,North,Noah,Consumer,Office Supplies,Notebook Pack,3,6.22,2.02
+ORD-20843,2025-05-08,East,Ethan,Consumer,Office Supplies,Ink Cartridge,4,41.26,23.80
+ORD-20844,2025-05-10,North,Daniel,Small Business,Furniture,Office Chair,5,184.98,112.83
+ORD-20845,2025-05-26,North,Liam,Corporate,Office Supplies,Desk Organizer,8,19.14,8.11
+ORD-20846,2025-05-17,South,Maya,Consumer,Office Supplies,Desk Organizer,4,18.42,7.78
+ORD-20847,2025-05-24,East,Grace,Consumer,Electronics,USB-C Hub,2,50.54,27.24
+ORD-20848,2025-05-28,East,Zara,Corporate,Electronics,Laptop Stand,5,69.25,36.04
+ORD-20849,2025-05-11,South,Zara,Consumer,Electronics,Wireless Mouse,4,24.64,9.85
+ORD-20850,2025-05-01,West,Ada,Corporate,Electronics,USB-C Hub,2,52.63,27.66
+ORD-20851,2025-06-15,North,Zara,Small Business,Office Supplies,Notebook Pack,2,5.95,1.98
+ORD-20852,2025-06-05,South,Liam,Small Business,Office Supplies,Desk Organizer,5,19.31,8.19
+ORD-20853,2025-06-15,East,Noah,Small Business,Electronics,Monitor,1,209.04,148.82
+ORD-20854,2025-06-05,West,Daniel,Small Business,Office Supplies,Desk Organizer,5,18.80,7.94
+ORD-20855,2025-06-26,North,Liam,Small Business,Office Supplies,Notebook Pack,6,5.78,2.04
+ORD-20856,2025-06-07,East,Grace,Small Business,Office Supplies,Desk Organizer,3,19.11,7.86
+ORD-20857,2025-06-28,North,Liam,Consumer,Electronics,Wireless Mouse,2,24.35,9.76
+ORD-20858,2025-06-16,North,Grace,Small Business,Electronics,Wireless Mouse,2,25.08,9.94
+ORD-20859,2025-06-05,West,Daniel,Corporate,Electronics,Keyboard,6,43.22,18.32
+ORD-20860,2025-06-16,West,Liam,Consumer,Office Supplies,Desk Organizer,2,19.11,8.07
+ORD-20861,2025-06-02,North,Ada,Small Business,Office Supplies,Desk Organizer,4,19.29,7.96
+ORD-20862,2025-06-28,West,Ada,Small Business,Electronics,Laptop Stand,4,70.11,37.75
+ORD-20863,2025-06-03,West,Daniel,Corporate,Furniture,Desk,6,312.28,209.24
+ORD-20864,2025-06-17,West,Maya,Consumer,Electronics,Wireless Mouse,1,24.82,10.14
+ORD-20865,2025-06-15,West,Daniel,Corporate,Electronics,Monitor,9,203.58,149.14
+ORD-20866,2025-06-05,South,Ada,Small Business,Office Supplies,Notebook Pack,2,6.05,1.99
+ORD-20867,2025-06-01,North,Grace,Consumer,Electronics,Keyboard,4,44.90,17.74
+ORD-20868,2025-06-27,North,Maya,Corporate,Furniture,Bookshelf,8,234.95,154.03
+ORD-20869,2025-06-22,East,Ethan,Small Business,Office Supplies,Notebook Pack,4,6.02,1.97
+ORD-20870,2025-06-28,South,Ethan,Small Business,Furniture,Office Chair,6,176.94,112.06
+ORD-20871,2025-06-26,East,Zara,Small Business,Electronics,Laptop Stand,2,68.73,36.31
+ORD-20872,2025-06-08,West,Grace,Consumer,Furniture,Desk,1,324.14,211.25
+ORD-20873,2025-06-22,East,Daniel,Consumer,Furniture,Desk,1,332.12,205.25
+ORD-20874,2025-06-09,North,Liam,Corporate,Furniture,Desk,3,308.53,210.09
+ORD-20875,2025-06-07,South,Grace,Small Business,Electronics,Wireless Mouse,5,24.88,10.02
+ORD-20876,2025-06-07,West,Ada,Consumer,Furniture,Office Chair,2,183.51,112.71
+ORD-20877,2025-06-02,North,Maya,Small Business,Electronics,Wireless Mouse,6,24.84,10.20
+ORD-20878,2025-06-05,North,Daniel,Small Business,Electronics,USB-C Hub,5,51.68,27.70
+ORD-20879,2025-06-04,West,Ethan,Corporate,Electronics,Monitor,2,211.83,149.15
+ORD-20880,2025-06-18,West,Ada,Small Business,Electronics,Laptop Stand,2,70.70,38.09
+ORD-20881,2025-06-22,South,Maya,Corporate,Electronics,Wireless Mouse,5,25.64,9.71
+ORD-20882,2025-06-19,West,Zara,Consumer,Office Supplies,Notebook Pack,4,5.95,1.99
+ORD-20883,2025-06-05,North,Grace,Corporate,Furniture,Office Chair,5,184.34,110.86
+ORD-20884,2025-06-09,West,Liam,Corporate,Furniture,Desk,2,317.09,214.36
+ORD-20885,2025-06-17,West,Maya,Corporate,Office Supplies,Printer Paper Box,6,27.00,16.21
+ORD-20886,2025-06-26,North,Zara,Consumer,Office Supplies,Desk Organizer,3,18.85,7.80
+ORD-20887,2025-06-20,West,Daniel,Corporate,Furniture,Desk,5,323.52,215.90
+ORD-20888,2025-06-08,West,Ada,Consumer,Office Supplies,Desk Organizer,2,18.75,7.93
+ORD-20889,2025-06-23,West,Liam,Small Business,Furniture,Office Chair,3,186.88,109.20
+ORD-20890,2025-06-06,East,Ethan,Corporate,Electronics,Monitor,4,207.45,141.40
+ORD-20891,2025-06-13,East,Noah,Small Business,Electronics,Laptop Stand,4,69.03,37.81
+ORD-20892,2025-06-16,East,Noah,Small Business,Electronics,Monitor,5,213.51,143.47
+ORD-20893,2025-06-09,South,Grace,Consumer,Electronics,Monitor,4,208.05,147.60
+ORD-20894,2025-06-22,North,Ada,Corporate,Furniture,Office Chair,8,181.15,109.27
+ORD-20895,2025-06-24,West,Ethan,Corporate,Electronics,Laptop Stand,6,67.90,37.18
+ORD-20896,2025-06-06,North,Zara,Small Business,Office Supplies,Desk Organizer,6,19.52,7.95
+ORD-20897,2025-06-14,North,Daniel,Small Business,Furniture,Bookshelf,6,230.90,147.22
+ORD-20898,2025-06-04,West,Ethan,Corporate,Office Supplies,Notebook Pack,7,6.19,2.04
+ORD-20899,2025-06-26,West,Maya,Consumer,Furniture,Desk,5,319.82,213.37
+ORD-20900,2025-06-12,West,Grace,Small Business,Electronics,Keyboard,3,45.02,17.64
+ORD-20901,2025-07-11,East,Ethan,Small Business,Furniture,Office Chair,6,181.56,107.72
+ORD-20902,2025-07-18,South,Ethan,Consumer,Furniture,Bookshelf,1,241.20,147.72
+ORD-20903,2025-07-04,North,Liam,Small Business,Furniture,Bookshelf,6,233.37,149.76
+ORD-20904,2025-07-13,North,Liam,Corporate,Electronics,Monitor,5,217.35,141.22
+ORD-20905,2025-07-16,West,Noah,Small Business,Furniture,Desk,4,327.39,212.27
+ORD-20906,2025-07-25,West,Daniel,Small Business,Furniture,Office Chair,3,176.80,108.08
+ORD-20907,2025-07-19,West,Maya,Corporate,Electronics,USB-C Hub,3,53.46,26.40
+ORD-20908,2025-07-19,North,Grace,Consumer,Office Supplies,Notebook Pack,5,6.15,1.99
+ORD-20909,2025-07-07,South,Zara,Corporate,Furniture,Office Chair,6,175.37,107.67
+ORD-20910,2025-07-15,North,Zara,Small Business,Electronics,Wireless Mouse,7,24.41,9.87
+ORD-20911,2025-07-07,South,Ethan,Small Business,Electronics,Monitor,2,217.03,145.58
+ORD-20912,2025-07-14,South,Maya,Small Business,Office Supplies,Notebook Pack,5,5.90,2.00
+ORD-20913,2025-07-03,East,Grace,Corporate,Electronics,Wireless Mouse,4,24.68,9.89
+ORD-20914,2025-07-07,North,Liam,Small Business,Electronics,Wireless Mouse,7,25.93,10.24
+ORD-20915,2025-07-03,East,Ada,Consumer,Furniture,Office Chair,4,182.15,113.27
+ORD-20916,2025-07-11,West,Liam,Small Business,Furniture,Bookshelf,2,248.60,149.83
+ORD-20917,2025-07-15,North,Noah,Corporate,Electronics,Wireless Mouse,9,25.59,9.92
+ORD-20918,2025-07-22,South,Grace,Consumer,Office Supplies,Printer Paper Box,3,28.27,15.89
+ORD-20919,2025-07-05,South,Daniel,Small Business,Electronics,USB-C Hub,3,51.11,26.23
+ORD-20920,2025-07-26,East,Zara,Consumer,Office Supplies,Desk Organizer,4,19.50,7.89
+ORD-20921,2025-07-12,North,Grace,Corporate,Electronics,Keyboard,3,43.23,18.38
+ORD-20922,2025-07-02,West,Ethan,Small Business,Office Supplies,Ink Cartridge,6,42.65,24.64
+ORD-20923,2025-07-23,East,Grace,Small Business,Office Supplies,Printer Paper Box,1,26.94,16.14
+ORD-20924,2025-07-22,South,Maya,Consumer,Office Supplies,Printer Paper Box,2,27.84,16.33
+ORD-20925,2025-07-07,South,Ada,Small Business,Electronics,Keyboard,1,44.66,18.21
+ORD-20926,2025-07-01,West,Grace,Consumer,Electronics,Keyboard,4,43.77,18.20
+ORD-20927,2025-07-04,South,Ada,Small Business,Furniture,Office Chair,6,173.10,108.42
+ORD-20928,2025-07-19,North,Ada,Consumer,Furniture,Desk,5,325.32,215.99
+ORD-20929,2025-07-01,North,Ethan,Small Business,Electronics,USB-C Hub,4,51.44,26.57
+ORD-20930,2025-07-19,South,Ethan,Small Business,Office Supplies,Ink Cartridge,2,41.81,24.14
+ORD-20931,2025-07-20,West,Grace,Small Business,Electronics,Monitor,6,207.84,146.18
+ORD-20932,2025-07-11,West,Zara,Small Business,Furniture,Office Chair,5,173.71,109.07
+ORD-20933,2025-07-14,West,Ethan,Corporate,Electronics,Monitor,3,205.21,142.40
+ORD-20934,2025-07-02,East,Grace,Corporate,Office Supplies,Notebook Pack,4,5.96,2.01
+ORD-20935,2025-07-19,East,Ethan,Consumer,Electronics,Laptop Stand,5,66.01,37.98
+ORD-20936,2025-07-24,South,Grace,Small Business,Electronics,Wireless Mouse,4,24.71,10.05
+ORD-20937,2025-07-22,South,Maya,Small Business,Office Supplies,Notebook Pack,6,5.87,2.02
+ORD-20938,2025-07-12,East,Maya,Small Business,Electronics,USB-C Hub,5,51.77,26.78
+ORD-20939,2025-07-24,West,Ethan,Small Business,Electronics,Wireless Mouse,5,24.64,10.14
+ORD-20940,2025-07-01,West,Noah,Corporate,Electronics,Laptop Stand,8,70.12,36.10
+ORD-20941,2025-07-21,West,Maya,Consumer,Office Supplies,Ink Cartridge,3,42.57,23.65
+ORD-20942,2025-07-27,North,Ethan,Consumer,Electronics,Keyboard,5,44.22,18.17
+ORD-20943,2025-07-14,North,Maya,Corporate,Office Supplies,Notebook Pack,5,6.19,2.06
+ORD-20944,2025-07-25,West,Ada,Small Business,Office Supplies,Ink Cartridge,3,41.78,23.68
+ORD-20945,2025-07-20,North,Maya,Corporate,Furniture,Desk,8,325.15,213.05
+ORD-20946,2025-07-02,West,Daniel,Small Business,Furniture,Bookshelf,2,233.90,145.59
+ORD-20947,2025-07-17,East,Daniel,Corporate,Electronics,Wireless Mouse,5,25.52,9.70
+ORD-20948,2025-07-18,West,Liam,Consumer,Office Supplies,Printer Paper Box,1,27.34,15.88
+ORD-20949,2025-07-18,South,Noah,Consumer,Electronics,Keyboard,2,44.90,17.95
+ORD-20950,2025-07-03,South,Daniel,Consumer,Furniture,Bookshelf,3,246.41,153.22
+ORD-20951,2025-08-18,West,Zara,Corporate,Office Supplies,Ink Cartridge,6,43.01,24.07
+ORD-20952,2025-08-12,East,Ethan,Consumer,Electronics,Laptop Stand,4,70.01,37.05
+ORD-20953,2025-08-03,East,Ethan,Small Business,Electronics,Keyboard,7,43.49,17.54
+ORD-20954,2025-08-16,West,Daniel,Corporate,Electronics,USB-C Hub,6,51.52,27.06
+ORD-20955,2025-08-17,West,Daniel,Corporate,Office Supplies,Printer Paper Box,4,28.74,16.21
+ORD-20956,2025-08-16,South,Ethan,Consumer,Office Supplies,Desk Organizer,2,19.08,8.13
+ORD-20957,2025-08-04,North,Grace,Small Business,Office Supplies,Desk Organizer,2,19.11,8.07
+ORD-20958,2025-08-01,South,Noah,Small Business,Electronics,USB-C Hub,2,51.73,26.65
+ORD-20959,2025-08-07,West,Zara,Small Business,Electronics,Laptop Stand,3,68.70,36.00
+ORD-20960,2025-08-10,East,Liam,Consumer,Office Supplies,Ink Cartridge,4,43.09,23.30
+ORD-20961,2025-08-14,West,Grace,Corporate,Furniture,Office Chair,2,186.47,111.11
+ORD-20962,2025-08-03,East,Ethan,Corporate,Furniture,Desk,5,308.12,206.39
+ORD-20963,2025-08-21,East,Noah,Small Business,Furniture,Office Chair,5,186.03,109.53
+ORD-20964,2025-08-08,North,Zara,Corporate,Electronics,Keyboard,7,45.80,17.56
+ORD-20965,2025-08-12,North,Grace,Consumer,Office Supplies,Printer Paper Box,3,27.26,16.44
+ORD-20966,2025-08-16,East,Maya,Small Business,Office Supplies,Ink Cartridge,5,42.65,23.76
+ORD-20967,2025-08-25,West,Ada,Corporate,Furniture,Bookshelf,4,237.80,146.90
+ORD-20968,2025-08-23,South,Daniel,Consumer,Furniture,Desk,1,325.72,212.42
+ORD-20969,2025-08-21,East,Grace,Corporate,Furniture,Office Chair,2,174.74,111.73
+ORD-20970,2025-08-05,West,Zara,Consumer,Electronics,Keyboard,2,44.52,18.04
+ORD-20971,2025-08-02,North,Noah,Corporate,Furniture,Office Chair,9,182.33,112.74
+ORD-20972,2025-08-16,North,Ethan,Corporate,Office Supplies,Notebook Pack,4,6.13,1.99
+ORD-20973,2025-08-25,West,Ethan,Consumer,Electronics,Laptop Stand,1,69.15,37.47
+ORD-20974,2025-08-23,South,Zara,Small Business,Electronics,Wireless Mouse,4,24.93,10.08
+ORD-20975,2025-08-08,West,Maya,Consumer,Office Supplies,Ink Cartridge,2,41.45,24.41
+ORD-20976,2025-08-05,East,Maya,Small Business,Electronics,Keyboard,2,44.03,18.28
+ORD-20977,2025-08-24,West,Maya,Consumer,Furniture,Office Chair,3,183.05,112.19
+ORD-20978,2025-08-13,North,Maya,Consumer,Office Supplies,Printer Paper Box,1,28.80,15.79
+ORD-20979,2025-08-28,North,Zara,Corporate,Electronics,Laptop Stand,3,70.44,36.38
+ORD-20980,2025-08-12,West,Noah,Consumer,Electronics,USB-C Hub,5,53.95,26.32
+ORD-20981,2025-08-06,West,Daniel,Corporate,Electronics,USB-C Hub,6,53.67,27.04
+ORD-20982,2025-08-04,West,Noah,Corporate,Office Supplies,Printer Paper Box,6,28.80,15.58
+ORD-20983,2025-08-11,South,Zara,Small Business,Electronics,Monitor,2,218.26,141.46
+ORD-20984,2025-08-04,North,Grace,Small Business,Electronics,Laptop Stand,4,66.75,37.34
+ORD-20985,2025-08-04,North,Liam,Small Business,Office Supplies,Ink Cartridge,5,40.34,24.15
+ORD-20986,2025-08-26,South,Daniel,Consumer,Electronics,Wireless Mouse,4,24.48,9.96
+ORD-20987,2025-08-04,South,Daniel,Small Business,Office Supplies,Notebook Pack,4,6.20,2.02
+ORD-20988,2025-08-05,South,Daniel,Consumer,Electronics,Keyboard,4,46.37,18.15
+ORD-20989,2025-08-10,North,Zara,Consumer,Electronics,Wireless Mouse,3,25.38,9.85
+ORD-20990,2025-08-02,West,Maya,Small Business,Furniture,Office Chair,3,176.03,111.69
+ORD-20991,2025-08-14,West,Ada,Small Business,Office Supplies,Desk Organizer,2,18.42,8.00
+ORD-20992,2025-08-16,West,Ada,Small Business,Furniture,Desk,6,307.33,204.70
+ORD-20993,2025-08-05,South,Ethan,Corporate,Furniture,Desk,7,322.29,204.37
+ORD-20994,2025-08-22,West,Grace,Consumer,Office Supplies,Printer Paper Box,4,27.98,15.78
+ORD-20995,2025-08-09,West,Ethan,Small Business,Office Supplies,Ink Cartridge,3,43.51,24.30
+ORD-20996,2025-08-09,West,Grace,Small Business,Electronics,Monitor,6,206.56,148.62
+ORD-20997,2025-08-13,West,Daniel,Corporate,Office Supplies,Printer Paper Box,8,27.50,16.47
+ORD-20998,2025-08-13,West,Grace,Consumer,Furniture,Bookshelf,1,233.75,146.46
+ORD-20999,2025-08-02,South,Ethan,Consumer,Office Supplies,Desk Organizer,1,19.34,8.09
+ORD-21000,2025-08-17,East,Grace,Small Business,Furniture,Office Chair,3,185.16,113.16
+ORD-21001,2025-09-21,North,Liam,Small Business,Electronics,Laptop Stand,3,66.86,36.80
+ORD-21002,2025-09-14,North,Ethan,Consumer,Electronics,Monitor,3,215.92,143.20
+ORD-21003,2025-09-20,West,Grace,Small Business,Office Supplies,Desk Organizer,2,19.29,7.86
+ORD-21004,2025-09-17,North,Zara,Small Business,Electronics,Keyboard,3,44.12,18.53
+ORD-21005,2025-09-28,North,Ethan,Corporate,Electronics,Monitor,7,203.50,141.40
+ORD-21006,2025-09-11,North,Ada,Consumer,Electronics,Wireless Mouse,4,25.13,10.15
+ORD-21007,2025-09-23,West,Grace,Small Business,Electronics,Keyboard,3,43.45,18.03
+ORD-21008,2025-09-18,East,Liam,Consumer,Office Supplies,Notebook Pack,2,6.00,2.01
+ORD-21009,2025-09-25,West,Noah,Small Business,Furniture,Office Chair,2,175.46,107.72
+ORD-21010,2025-09-21,East,Maya,Consumer,Office Supplies,Printer Paper Box,5,28.67,15.77
+ORD-21011,2025-09-17,South,Grace,Corporate,Office Supplies,Notebook Pack,8,5.77,1.96
+ORD-21012,2025-09-02,East,Grace,Corporate,Furniture,Office Chair,7,173.57,107.81
+ORD-21013,2025-09-17,East,Grace,Consumer,Electronics,Keyboard,5,46.43,17.63
+ORD-21014,2025-09-06,West,Ada,Consumer,Office Supplies,Notebook Pack,5,6.00,2.01
+ORD-21015,2025-09-22,West,Ada,Small Business,Furniture,Bookshelf,1,243.33,147.57
+ORD-21016,2025-09-10,North,Ada,Corporate,Electronics,Keyboard,7,46.23,17.72
+ORD-21017,2025-09-25,West,Maya,Corporate,Office Supplies,Notebook Pack,5,6.05,1.94
+ORD-21018,2025-09-15,East,Noah,Consumer,Electronics,Keyboard,2,43.42,17.66
+ORD-21019,2025-09-19,East,Maya,Consumer,Office Supplies,Printer Paper Box,4,27.08,16.45
+ORD-21020,2025-09-28,South,Grace,Small Business,Furniture,Desk,4,313.22,204.14
+ORD-21021,2025-09-05,West,Grace,Corporate,Office Supplies,Printer Paper Box,6,28.18,15.56
+ORD-21022,2025-09-14,North,Maya,Small Business,Office Supplies,Ink Cartridge,2,41.45,24.23
+ORD-21023,2025-09-05,West,Noah,Small Business,Office Supplies,Ink Cartridge,4,41.32,23.55
+ORD-21024,2025-09-17,North,Noah,Corporate,Furniture,Office Chair,3,173.66,111.57
+ORD-21025,2025-09-11,West,Zara,Corporate,Furniture,Bookshelf,5,232.29,154.09
+ORD-21026,2025-09-28,North,Ada,Consumer,Electronics,Keyboard,4,45.45,17.81
+ORD-21027,2025-09-22,North,Liam,Consumer,Electronics,USB-C Hub,5,51.06,26.25
+ORD-21028,2025-09-24,West,Grace,Small Business,Electronics,Wireless Mouse,6,25.19,9.94
+ORD-21029,2025-09-27,South,Maya,Small Business,Furniture,Desk,2,316.40,214.42
+ORD-21030,2025-09-02,North,Daniel,Small Business,Electronics,Monitor,6,213.07,144.60
+ORD-21031,2025-09-14,East,Noah,Consumer,Furniture,Bookshelf,2,248.67,146.13
+ORD-21032,2025-09-16,West,Ethan,Small Business,Office Supplies,Printer Paper Box,2,28.16,16.48
+ORD-21033,2025-09-02,East,Maya,Corporate,Electronics,Monitor,6,210.32,142.54
+ORD-21034,2025-09-19,East,Ethan,Corporate,Office Supplies,Desk Organizer,2,19.33,7.85
+ORD-21035,2025-09-28,West,Zara,Small Business,Office Supplies,Printer Paper Box,3,27.36,15.72
+ORD-21036,2025-09-14,East,Liam,Consumer,Office Supplies,Ink Cartridge,3,40.91,23.79
+ORD-21037,2025-09-11,North,Daniel,Consumer,Office Supplies,Printer Paper Box,3,28.42,16.42
+ORD-21038,2025-09-28,South,Daniel,Small Business,Electronics,USB-C Hub,5,51.56,27.11
+ORD-21039,2025-09-14,South,Liam,Consumer,Office Supplies,Printer Paper Box,5,28.90,16.28
+ORD-21040,2025-09-17,North,Grace,Consumer,Office Supplies,Desk Organizer,3,18.31,7.86
+ORD-21041,2025-09-03,South,Grace,Corporate,Office Supplies,Printer Paper Box,8,28.97,15.78
+ORD-21042,2025-09-07,West,Zara,Consumer,Electronics,Wireless Mouse,5,25.65,10.02
+ORD-21043,2025-09-21,South,Maya,Small Business,Furniture,Office Chair,4,184.33,110.16
+ORD-21044,2025-09-24,South,Ada,Corporate,Office Supplies,Notebook Pack,5,5.89,1.96
+ORD-21045,2025-09-02,West,Noah,Small Business,Office Supplies,Notebook Pack,3,5.89,2.05
+ORD-21046,2025-09-19,East,Daniel,Consumer,Furniture,Office Chair,3,181.09,112.59
+ORD-21047,2025-09-03,East,Daniel,Corporate,Furniture,Office Chair,5,182.27,110.12
+ORD-21048,2025-09-11,West,Daniel,Consumer,Electronics,Laptop Stand,5,67.45,37.74
+ORD-21049,2025-09-19,East,Grace,Corporate,Office Supplies,Ink Cartridge,4,42.55,24.51
+ORD-21050,2025-09-18,East,Grace,Corporate,Electronics,Wireless Mouse,4,25.34,9.92
+ORD-21051,2025-10-16,North,Noah,Consumer,Furniture,Desk,5,311.51,207.09
+ORD-21052,2025-10-08,West,Ethan,Corporate,Electronics,Laptop Stand,7,67.59,37.03
+ORD-21053,2025-10-27,East,Ethan,Small Business,Electronics,USB-C Hub,6,50.11,27.14
+ORD-21054,2025-10-17,South,Liam,Corporate,Office Supplies,Ink Cartridge,7,42.29,24.08
+ORD-21055,2025-10-18,East,Ethan,Small Business,Electronics,USB-C Hub,3,54.01,27.27
+ORD-21056,2025-10-22,North,Zara,Small Business,Furniture,Office Chair,6,184.35,110.32
+ORD-21057,2025-10-12,North,Ethan,Consumer,Electronics,Keyboard,2,44.24,18.47
+ORD-21058,2025-10-03,South,Ada,Consumer,Office Supplies,Printer Paper Box,5,27.43,16.43
+ORD-21059,2025-10-11,East,Daniel,Corporate,Furniture,Office Chair,5,182.96,113.19
+ORD-21060,2025-10-07,East,Zara,Small Business,Electronics,Wireless Mouse,6,24.87,9.77
+ORD-21061,2025-10-07,East,Zara,Consumer,Electronics,Wireless Mouse,4,24.45,9.77
+ORD-21062,2025-10-19,East,Daniel,Corporate,Office Supplies,Desk Organizer,7,18.29,8.21
+ORD-21063,2025-10-15,East,Ada,Consumer,Office Supplies,Desk Organizer,5,19.60,8.19
+ORD-21064,2025-10-28,South,Daniel,Consumer,Furniture,Desk,5,324.46,207.62
+ORD-21065,2025-10-03,East,Noah,Small Business,Office Supplies,Notebook Pack,2,6.06,2.03
+ORD-21066,2025-10-02,South,Grace,Small Business,Furniture,Bookshelf,2,245.29,152.60
+ORD-21067,2025-10-09,West,Zara,Consumer,Electronics,Laptop Stand,3,65.56,36.91
+ORD-21068,2025-10-14,North,Ethan,Small Business,Furniture,Desk,4,315.83,204.81
+ORD-21069,2025-10-10,East,Liam,Small Business,Furniture,Desk,3,313.62,214.06
+ORD-21070,2025-10-27,West,Zara,Consumer,Furniture,Office Chair,3,183.83,111.14
+ORD-21071,2025-10-16,South,Daniel,Small Business,Electronics,Keyboard,6,45.52,17.60
+ORD-21072,2025-10-10,North,Ada,Corporate,Electronics,Keyboard,8,45.66,17.80
+ORD-21073,2025-10-22,South,Maya,Corporate,Office Supplies,Notebook Pack,8,6.13,2.03
+ORD-21074,2025-10-07,East,Zara,Consumer,Office Supplies,Printer Paper Box,5,28.54,16.14
+ORD-21075,2025-10-19,North,Ada,Small Business,Electronics,Wireless Mouse,2,24.18,10.14
+ORD-21076,2025-10-04,North,Grace,Consumer,Electronics,Keyboard,2,44.76,18.26
+ORD-21077,2025-10-26,North,Noah,Small Business,Furniture,Desk,6,328.40,207.72
+ORD-21078,2025-10-22,North,Maya,Small Business,Office Supplies,Notebook Pack,4,6.19,2.02
+ORD-21079,2025-10-19,South,Maya,Corporate,Electronics,Laptop Stand,5,69.40,37.05
+ORD-21080,2025-10-15,North,Grace,Consumer,Electronics,Wireless Mouse,5,25.50,9.70
+ORD-21081,2025-10-22,East,Grace,Consumer,Office Supplies,Notebook Pack,3,5.77,2.02
+ORD-21082,2025-10-17,East,Ethan,Corporate,Office Supplies,Desk Organizer,2,19.58,8.01
+ORD-21083,2025-10-04,North,Noah,Corporate,Office Supplies,Ink Cartridge,8,43.56,23.43
+ORD-21084,2025-10-10,East,Noah,Corporate,Electronics,Wireless Mouse,7,24.53,10.09
+ORD-21085,2025-10-27,East,Liam,Corporate,Electronics,Keyboard,4,46.46,17.95
+ORD-21086,2025-10-20,East,Daniel,Consumer,Office Supplies,Notebook Pack,2,6.14,1.94
+ORD-21087,2025-10-05,South,Zara,Small Business,Office Supplies,Notebook Pack,5,6.23,2.00
+ORD-21088,2025-10-12,North,Ada,Consumer,Furniture,Bookshelf,5,231.24,146.19
+ORD-21089,2025-10-18,South,Maya,Small Business,Furniture,Desk,3,332.12,210.67
+ORD-21090,2025-10-09,West,Maya,Small Business,Electronics,Keyboard,3,43.80,18.21
+ORD-21091,2025-10-14,South,Daniel,Corporate,Furniture,Bookshelf,3,231.50,146.43
+ORD-21092,2025-10-20,West,Daniel,Small Business,Furniture,Office Chair,1,181.76,110.81
+ORD-21093,2025-10-16,West,Maya,Small Business,Office Supplies,Desk Organizer,3,19.28,7.92
+ORD-21094,2025-10-18,South,Ada,Corporate,Electronics,Wireless Mouse,2,24.06,9.77
+ORD-21095,2025-10-13,North,Noah,Consumer,Electronics,Keyboard,2,44.47,18.23
+ORD-21096,2025-10-06,West,Liam,Corporate,Office Supplies,Printer Paper Box,6,29.08,15.98
+ORD-21097,2025-10-04,South,Ada,Consumer,Office Supplies,Desk Organizer,5,18.91,8.02
+ORD-21098,2025-10-26,East,Daniel,Corporate,Furniture,Desk,8,328.60,211.96
+ORD-21099,2025-10-26,West,Ethan,Corporate,Office Supplies,Notebook Pack,6,5.76,2.00
+ORD-21100,2025-10-27,South,Zara,Small Business,Office Supplies,Desk Organizer,7,19.08,8.12
+ORD-21101,2025-11-06,West,Ethan,Consumer,Furniture,Desk,4,322.85,207.62
+ORD-21102,2025-11-16,West,Ada,Consumer,Furniture,Bookshelf,7,239.88,151.02
+ORD-21103,2025-11-10,East,Ada,Small Business,Furniture,Office Chair,6,174.44,107.34
+ORD-21104,2025-11-06,South,Maya,Consumer,Office Supplies,Notebook Pack,6,5.87,1.99
+ORD-21105,2025-11-09,West,Ethan,Corporate,Furniture,Desk,11,320.13,205.63
+ORD-21106,2025-11-02,West,Liam,Corporate,Electronics,Laptop Stand,11,67.29,36.26
+ORD-21107,2025-11-22,West,Maya,Consumer,Office Supplies,Notebook Pack,6,6.10,1.99
+ORD-21108,2025-11-05,West,Ada,Corporate,Electronics,Keyboard,5,44.47,17.83
+ORD-21109,2025-11-15,North,Noah,Consumer,Furniture,Bookshelf,5,237.89,154.35
+ORD-21110,2025-11-25,South,Noah,Small Business,Furniture,Desk,7,314.35,208.60
+ORD-21111,2025-11-23,South,Liam,Small Business,Electronics,Wireless Mouse,9,25.57,10.18
+ORD-21112,2025-11-04,South,Daniel,Small Business,Furniture,Bookshelf,6,244.10,148.32
+ORD-21113,2025-11-15,North,Ada,Consumer,Furniture,Desk,6,319.68,205.01
+ORD-21114,2025-11-20,South,Maya,Small Business,Electronics,USB-C Hub,5,51.99,26.58
+ORD-21115,2025-11-19,West,Ada,Corporate,Electronics,USB-C Hub,4,51.12,26.25
+ORD-21116,2025-11-15,East,Grace,Consumer,Office Supplies,Desk Organizer,3,19.09,8.23
+ORD-21117,2025-11-15,West,Daniel,Consumer,Furniture,Desk,2,332.03,206.30
+ORD-21118,2025-11-05,West,Ethan,Corporate,Office Supplies,Notebook Pack,7,6.12,2.01
+ORD-21119,2025-11-02,North,Noah,Corporate,Electronics,Monitor,8,203.68,142.79
+ORD-21120,2025-11-24,West,Zara,Corporate,Electronics,Monitor,4,211.64,148.34
+ORD-21121,2025-11-09,West,Noah,Consumer,Office Supplies,Printer Paper Box,4,29.04,15.88
+ORD-21122,2025-11-02,South,Ethan,Corporate,Furniture,Desk,8,312.34,205.37
+ORD-21123,2025-11-12,East,Zara,Corporate,Office Supplies,Ink Cartridge,2,40.80,24.66
+ORD-21124,2025-11-18,East,Maya,Corporate,Office Supplies,Notebook Pack,5,6.23,2.00
+ORD-21125,2025-11-08,North,Zara,Consumer,Furniture,Desk,3,321.30,204.74
+ORD-21126,2025-11-06,South,Zara,Small Business,Electronics,Wireless Mouse,8,24.99,10.03
+ORD-21127,2025-11-18,South,Maya,Small Business,Furniture,Office Chair,2,174.93,107.33
+ORD-21128,2025-11-14,East,Zara,Corporate,Electronics,Monitor,3,206.67,141.26
+ORD-21129,2025-11-12,North,Maya,Consumer,Electronics,USB-C Hub,6,53.09,26.50
+ORD-21130,2025-11-17,South,Noah,Consumer,Office Supplies,Ink Cartridge,3,42.72,23.79
+ORD-21131,2025-11-06,North,Liam,Corporate,Electronics,USB-C Hub,11,53.68,27.75
+ORD-21132,2025-11-06,South,Noah,Consumer,Office Supplies,Printer Paper Box,2,28.31,16.38
+ORD-21133,2025-11-08,West,Maya,Consumer,Electronics,Monitor,6,211.39,149.03
+ORD-21134,2025-11-04,East,Grace,Small Business,Electronics,Keyboard,5,44.60,18.49
+ORD-21135,2025-11-06,East,Noah,Consumer,Electronics,Monitor,6,203.61,142.96
+ORD-21136,2025-11-14,North,Ada,Consumer,Office Supplies,Ink Cartridge,2,41.99,23.38
+ORD-21137,2025-11-27,West,Noah,Corporate,Furniture,Desk,5,331.62,204.17
+ORD-21138,2025-11-28,North,Ada,Corporate,Office Supplies,Desk Organizer,4,19.02,8.08
+ORD-21139,2025-11-10,South,Daniel,Corporate,Furniture,Bookshelf,9,239.27,146.32
+ORD-21140,2025-11-08,West,Noah,Corporate,Electronics,Wireless Mouse,6,25.68,10.05
+ORD-21141,2025-11-06,South,Maya,Consumer,Furniture,Office Chair,6,183.84,109.68
+ORD-21142,2025-11-08,East,Maya,Corporate,Electronics,Keyboard,6,45.11,18.18
+ORD-21143,2025-11-23,West,Ada,Small Business,Electronics,Monitor,3,210.84,148.66
+ORD-21144,2025-11-14,North,Ethan,Consumer,Electronics,USB-C Hub,3,50.33,26.71
+ORD-21145,2025-11-07,West,Zara,Small Business,Furniture,Bookshelf,4,247.03,151.21
+ORD-21146,2025-11-07,South,Grace,Small Business,Furniture,Desk,5,315.81,204.49
+ORD-21147,2025-11-13,South,Ada,Corporate,Electronics,USB-C Hub,8,53.89,27.21
+ORD-21148,2025-11-04,North,Liam,Consumer,Electronics,Laptop Stand,5,66.01,36.08
+ORD-21149,2025-11-26,North,Daniel,Consumer,Furniture,Bookshelf,2,231.40,149.11
+ORD-21150,2025-11-06,North,Grace,Small Business,Electronics,Monitor,7,206.28,147.83
+ORD-21151,2025-12-19,West,Grace,Small Business,Electronics,Keyboard,4,43.93,17.97
+ORD-21152,2025-12-10,West,Ada,Consumer,Furniture,Desk,1,314.28,210.41
+ORD-21153,2025-12-21,South,Ethan,Small Business,Furniture,Office Chair,2,173.87,113.05
+ORD-21154,2025-12-16,South,Ada,Small Business,Electronics,Keyboard,4,43.78,18.35
+ORD-21155,2025-12-13,South,Zara,Corporate,Furniture,Bookshelf,2,245.19,146.56
+ORD-21156,2025-12-09,North,Ada,Corporate,Office Supplies,Desk Organizer,10,18.70,7.87
+ORD-21157,2025-12-20,South,Ada,Small Business,Office Supplies,Ink Cartridge,6,42.47,24.60
+ORD-21158,2025-12-22,West,Daniel,Corporate,Electronics,Wireless Mouse,3,24.48,10.19
+ORD-21159,2025-12-09,East,Grace,Consumer,Furniture,Bookshelf,5,232.12,150.87
+ORD-21160,2025-12-07,West,Grace,Small Business,Office Supplies,Desk Organizer,6,18.93,8.07
+ORD-21161,2025-12-10,East,Ethan,Small Business,Electronics,Monitor,2,208.37,142.80
+ORD-21162,2025-12-11,East,Ada,Corporate,Electronics,Monitor,6,205.27,144.49
+ORD-21163,2025-12-11,South,Ethan,Corporate,Office Supplies,Notebook Pack,6,6.02,1.98
+ORD-21164,2025-12-15,East,Ada,Small Business,Electronics,Laptop Stand,2,67.46,36.12
+ORD-21165,2025-12-25,East,Zara,Corporate,Office Supplies,Ink Cartridge,7,43.61,23.77
+ORD-21166,2025-12-01,West,Ada,Consumer,Electronics,Laptop Stand,2,66.72,36.46
+ORD-21167,2025-12-12,West,Daniel,Consumer,Furniture,Office Chair,6,179.63,108.00
+ORD-21168,2025-12-15,East,Daniel,Consumer,Office Supplies,Ink Cartridge,1,41.30,24.50
+ORD-21169,2025-12-02,East,Maya,Small Business,Office Supplies,Desk Organizer,2,19.65,8.22
+ORD-21170,2025-12-11,West,Ada,Consumer,Electronics,Keyboard,6,46.77,18.20
+ORD-21171,2025-12-19,West,Daniel,Consumer,Electronics,Laptop Stand,6,66.19,36.69
+ORD-21172,2025-12-23,South,Daniel,Corporate,Electronics,Keyboard,10,45.77,17.47
+ORD-21173,2025-12-06,North,Zara,Consumer,Furniture,Office Chair,2,183.88,108.60
+ORD-21174,2025-12-09,East,Ethan,Consumer,Electronics,Wireless Mouse,5,24.93,9.73
+ORD-21175,2025-12-28,East,Noah,Small Business,Electronics,Keyboard,3,46.33,17.94
+ORD-21176,2025-12-26,West,Ada,Corporate,Office Supplies,Notebook Pack,3,6.10,2.01
+ORD-21177,2025-12-06,West,Ethan,Consumer,Electronics,Laptop Stand,3,70.58,37.78
+ORD-21178,2025-12-17,North,Ada,Corporate,Furniture,Office Chair,4,175.84,110.39
+ORD-21179,2025-12-25,South,Maya,Small Business,Electronics,Keyboard,4,45.99,17.94
+ORD-21180,2025-12-14,North,Maya,Corporate,Furniture,Desk,8,327.46,210.29
+ORD-21181,2025-12-15,West,Liam,Small Business,Office Supplies,Desk Organizer,6,19.70,8.05
+ORD-21182,2025-12-06,East,Maya,Corporate,Furniture,Office Chair,3,175.67,108.81
+ORD-21183,2025-12-09,West,Zara,Consumer,Office Supplies,Ink Cartridge,5,40.44,24.36
+ORD-21184,2025-12-07,North,Noah,Small Business,Office Supplies,Ink Cartridge,4,43.32,24.12
+ORD-21185,2025-12-09,North,Ada,Consumer,Office Supplies,Ink Cartridge,7,40.71,24.54
+ORD-21186,2025-12-05,East,Daniel,Corporate,Electronics,Laptop Stand,4,69.95,36.61
+ORD-21187,2025-12-26,South,Liam,Corporate,Electronics,Monitor,5,214.30,141.85
+ORD-21188,2025-12-01,South,Noah,Corporate,Furniture,Office Chair,8,178.90,109.80
+ORD-21189,2025-12-03,East,Zara,Small Business,Furniture,Office Chair,3,183.75,109.30
+ORD-21190,2025-12-16,East,Liam,Small Business,Electronics,USB-C Hub,8,50.21,26.92
+ORD-21191,2025-12-23,East,Ada,Corporate,Furniture,Desk,11,332.54,213.52
+ORD-21192,2025-12-20,South,Ada,Small Business,Electronics,USB-C Hub,3,50.92,27.42
+ORD-21193,2025-12-05,North,Ada,Small Business,Office Supplies,Ink Cartridge,6,40.92,23.67
+ORD-21194,2025-12-17,South,Zara,Small Business,Office Supplies,Notebook Pack,5,5.84,2.00
+ORD-21195,2025-12-24,North,Noah,Consumer,Office Supplies,Desk Organizer,3,19.38,7.87
+ORD-21196,2025-12-06,West,Grace,Consumer,Office Supplies,Notebook Pack,5,6.07,2.05
+ORD-21197,2025-12-09,North,Ethan,Corporate,Office Supplies,Ink Cartridge,8,42.37,23.29
+ORD-21198,2025-12-14,North,Grace,Corporate,Electronics,USB-C Hub,8,53.80,26.33
+ORD-21199,2025-12-08,North,Ada,Corporate,Office Supplies,Printer Paper Box,8,29.10,15.95
+ORD-21200,2025-12-18,East,Grace,Consumer,Electronics,Monitor,3,208.84,143.37
