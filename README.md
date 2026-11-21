@@ -63,6 +63,9 @@ data-insights-lab/
 │   └── sales_data.csv
 ├── docs/
 │   └── data_dictionary.md
+├── .github/
+│   └── workflows/
+│       └── validate-sales-analysis.yml
 ├── outputs/
 │   ├── kpi_summary.csv
 │   ├── monthly_performance.csv
@@ -76,6 +79,8 @@ data-insights-lab/
 │       └── excel-workbook.md
 ├── python/
 │   └── analyze_sales.py
+├── tests/
+│   └── test_analyze_sales.py
 ├── sql/
 │   └── sales_analysis.sql
 ├── requirements.txt
