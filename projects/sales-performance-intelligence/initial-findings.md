@@ -1,98 +1,100 @@
 # Initial Findings — Sales Performance Intelligence
 
-**Analysis period:** 1 January–27 June 2025  
-**Dataset:** 24 synthetic order records  
+**Analysis period:** January 2024–December 2025  
+**Dataset:** 1,200 synthetic order lines across 1,200 distinct orders  
 **Currency:** Unspecified currency units  
-**Status:** Initial descriptive analysis; not a real-company performance assessment
+**Status:** Descriptive analysis of a generated demonstration dataset; not a real-company performance assessment
 
 ## Executive KPI snapshot
 
 | KPI | Result |
 |---|---:|
-| Records | 24 |
-| Distinct orders | 24 |
-| Units sold | 108 |
-| Revenue | 6,241 |
-| Cost | 3,664 |
-| Profit | 2,577 |
-| Profit margin | 41.29% |
-| Average order value | 260.04 |
+| Records | 1,200 |
+| Distinct orders | 1,200 |
+| Units sold | 5,155 |
+| Revenue | 558,057.39 |
+| Cost | 343,858.98 |
+| Profit | 214,198.41 |
+| Profit margin | 38.38% |
+| Average order value | 465.05 |
 
 Calculations use revenue = quantity × unit price; cost = quantity × unit cost; profit = revenue − cost; profit margin = total profit ÷ total revenue.
 
-## Findings from the sample
+## Findings from the generated sample
 
-### 1. Revenue leadership and profit leadership differ by region
+### 1. Revenue and profit leadership are closely contested across regions
 
-- North generated the highest revenue: 1,923 (30.8% of total revenue).
-- West generated the highest profit: 732 (28.4% of total profit), despite revenue of 1,610.
-- East sold the most units (38) but had the lowest regional revenue (1,221).
+- South has the highest revenue: 141,974.44.
+- South also has the highest profit: 54,633.31.
+- West is a close second in revenue (141,223.79) and profit (54,524.93).
+- West has the highest unit volume (1,443), while South has 1,286 units.
 
-**Interpretation:** Revenue volume alone does not describe regional profitability. The dashboard should show revenue, profit, and margin together rather than ranking regions on revenue only.
+**Interpretation:** The regional gap is narrow. A management dashboard should show revenue, profit, and margin together and avoid overstating small differences in generated data.
 
-### 2. Furniture leads category revenue; Electronics is close in profit
+### 2. Furniture dominates revenue and profit contribution
 
 | Category | Revenue | Profit | Profit margin |
 |---|---:|---:|---:|
-| Furniture | 3,040 | 1,110 | 36.51% |
-| Electronics | 2,415 | 1,083 | 44.84% |
-| Office Supplies | 786 | 384 | 48.85% |
+| Furniture | 348,885.01 | 127,081.58 | 36.43% |
+| Electronics | 169,679.10 | 68,329.39 | 40.27% |
+| Office Supplies | 39,493.28 | 18,787.44 | 47.57% |
 
-Furniture accounts for 48.7% of revenue. Electronics contributes 42.0% of profit despite lower revenue than Furniture. Office Supplies has the highest category margin in this sample, but the lowest revenue.
+Furniture contributes the largest absolute revenue and profit. Office Supplies has the highest margin percentage but a much smaller revenue base.
 
-**Interpretation:** A high margin percentage does not necessarily mean the largest profit contribution. Both margin and absolute profit should be considered.
+**Interpretation:** Margin percentage and profit contribution answer different questions. The dashboard should present both.
 
-### 3. Corporate is the largest customer segment by revenue
+### 3. Corporate is the largest segment by revenue
 
 | Segment | Revenue | Profit | Orders |
 |---|---:|---:|---:|
-| Corporate | 2,755 | 1,053 | 9 |
-| Small Business | 2,152 | 898 | 6 |
-| Consumer | 1,334 | 626 | 9 |
+| Corporate | 225,255.84 | 87,716.09 | 412 |
+| Small Business | 201,150.39 | 76,685.31 | 434 |
+| Consumer | 131,651.16 | 49,797.01 | 354 |
 
-Corporate represents 44.1% of revenue. Small Business has fewer orders but contributes 34.5% of revenue.
+Corporate leads revenue and profit, while Small Business has the highest order count. These differences make average order value and order volume useful companion measures.
 
-**Interpretation:** Segment comparisons should include order count and average order value, not revenue alone.
+### 4. Product contribution varies substantially
 
-### 4. Product-level results show different types of contribution
+- Desk is the highest-revenue product: 161,799.54.
+- Desk also generates the highest total profit: 55,572.93.
+- Notebook Pack has the lowest revenue (2,828.08) and profit (1,886.15), despite 470 units sold.
+- Notebook Pack has the highest product margin (66.69%) in this generated sample.
 
-- Desk has the highest product revenue (1,600).
-- Office Chair has the highest product profit (560).
-- Notebook Pack has the lowest product revenue (198) and profit (132), but the highest unit volume (33).
+**Interpretation:** High unit volume or margin does not automatically translate into the largest absolute profit contribution.
 
-**Interpretation:** Product volume, revenue, and profit tell different stories. The product view should allow users to compare all three.
+### 5. Monthly results vary; generated seasonality is not market evidence
 
-### 5. Monthly revenue fluctuates across the six-month sample
+- November 2025 records the highest monthly revenue: 39,466.40.
+- December 2024 records the second-highest monthly revenue: 31,552.63.
+- November 2025 also records the highest monthly profit: 14,652.18.
+- Every month contains 50 generated orders by design.
 
-- February recorded the highest revenue (1,420).
-- January recorded the lowest revenue (585).
-- April recorded the highest monthly profit (527).
-- June revenue was 917.
-
-**Interpretation:** The sample shows variation, but six months and four orders per month are insufficient to infer seasonality or a durable growth trend.
+**Interpretation:** The generator intentionally applies a seasonal multiplier to November and December. The resulting peaks are a property of the simulation, not evidence of real seasonal demand. Do not describe them as discovered market seasonality.
 
 ## Data-quality and interpretation notes
 
-- The dataset contains 24 rows and 24 distinct order IDs.
-- All quantities are positive; unit prices and unit costs are non-negative.
-- The date range is 1 January–27 June 2025.
-- The dataset is intentionally small and synthetic.
-- It contains no taxes, discounts, shipping, returns, refunds, operating expenses, or actual customer/company identifiers.
-- These are descriptive results only. They should not be presented as evidence about a real retailer or used for forecasting.
+- The dataset contains 1,200 records and 1,200 distinct order IDs.
+- The generated date range is 1 January 2024–31 December 2025.
+- Quantities are positive; unit prices and unit costs are non-negative.
+- Every row represents one order line and one order in this version.
+- The dataset is synthetic and reproducible from a fixed seed.
+- No taxes, discounts, shipping, returns, refunds, operating expenses, or real customer/company identifiers are included.
+- These are descriptive results from simulated data only. They should not be presented as evidence about a real retailer or used for forecasting.
 
 ## Recommended dashboard design
 
-1. KPI row: Revenue, Profit, Profit Margin, Orders, Units Sold.
-2. Monthly trend: Revenue and Profit by month.
-3. Regional comparison: Revenue, Profit, and Margin.
+1. KPI row: Revenue, Profit, Profit Margin, Orders, Units Sold, and Average Order Value.
+2. Monthly trend: Revenue and Profit by month across 24 months.
+3. Regional comparison: Revenue, Profit, Margin, and order volume.
 4. Category profitability: Revenue and Profit with margin labels.
 5. Customer segments: Revenue, Profit, Orders, and Average Order Value.
 6. Product analysis: Revenue, Profit, Units Sold, and Margin.
-7. Filters: Month, Region, Category, and Customer Segment.
+7. Filters: Date, Region, Category, and Customer Segment.
 
 ## Recommended next analysis steps
 
-- Reconcile Python outputs with SQLite query results.
-- Build an Excel workbook with formula checks and pivot tables.
-- Build the Tableau dashboard using the validated output tables.
-- Expand the dataset with more records and realistic edge cases before attempting advanced analysis.
+- Build a Tableau dashboard using the transaction-level dataset, not only pre-aggregated CSVs.
+- Add scenario analysis to show how changes in unit cost or selling price affect profit.
+- Add a separate multi-line order dataset in a future iteration if basket-level analysis is required.
+- Continue reconciling Python, SQLite, and dashboard calculations.
+- Keep synthetic-data limitations visible in the project and dashboard.
