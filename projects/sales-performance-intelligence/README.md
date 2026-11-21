@@ -51,6 +51,7 @@ All monetary values are expressed in **unspecified currency units**. No currency
 - [Initial findings and KPI results](initial-findings.md)
 - [Analysis output tables](../../outputs/)
 - [Excel workbook documentation](excel-workbook.md) (describes the companion dashboard workbook and its validation status)
+- [Tableau dashboard blueprint](tableau-dashboard-blueprint.md) (worksheet design, calculated fields, filters, and QA checklist)
 
 ## Run the Python analysis
 
@@ -69,15 +70,7 @@ The SQL file is written for SQLite. Import `datasets/sales_data.csv` into a tabl
 
 ## Tableau dashboard plan
 
-The planned dashboard has:
-- KPI cards for revenue, profit, margin, orders, and units sold
-- Monthly revenue and profit trend
-- Revenue and profit by region
-- Category and product profitability
-- Customer-segment comparison
-- Filters for date, region, category, and customer segment
-
-A dashboard should only be published after the underlying calculations have been validated.
+A detailed implementation guide is available in the [Tableau dashboard blueprint](tableau-dashboard-blueprint.md). It defines the calculated fields, executive layout, five analytical views, dashboard filters/actions, and a reconciliation checklist. The dashboard should only be published after the underlying calculations and filter behavior have been validated.
 
 ## Automated validation
 
